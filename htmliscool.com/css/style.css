@@ -1,26 +1,26 @@
-.w3-row-padding, .w3-row-padding > .w3-half, .w3-row-padding > .w3-third, .w3-row-padding > .w3-twothird, .w3-row-padding > .w3-threequarter, .w3-row-padding > .w3-quarter, .w3-row-padding > .w3-col {
+.row-padding, .row-padding > .half, .row-padding > .third, .row-padding > .twothird, .row-padding > .threequarter, .row-padding > .quarter, .row-padding > .col {
     padding: 0 8px
 }
-.w3-margin-bottom {
+.margin-bottom {
     margin-bottom: 16px !important
 }
-.w3-col, .w3-half, .w3-third, .w3-twothird, .w3-threequarter, .w3-quarter {
+.col, .half, .third, .twothird, .threequarter, .quarter {
     float: left;
     width: 100%
 }
-.w3-col.l6 {
+.col.l6 {
     width:49.99999%
 }
-.w3-center {
+.center {
     text-align: center !important
 }
-.w3-xlarge {
+.xlarge {
     font-size:24px !important
 }
-.w3-text-dark-grey, .w3-hover-text-dark-grey:hover, .w3-text-dark-gray, .w3-hover-text-dark-gray:hover {
+.text-dark-grey, .hover-text-dark-grey:hover, .text-dark-gray, .hover-text-dark-gray:hover {
     color: #3a3a3a !important
 }
-.w3-btn, .w3-button {
+.btn, .button {
     border: none;
     display: inline-block;
     padding: 8px 16px;
@@ -33,45 +33,40 @@
     cursor: pointer;
     white-space: nowrap
 }
-.w3-dark-grey, .w3-hover-dark-grey:hover, .w3-dark-gray, .w3-hover-dark-gray:hover {
+.dark-grey, .hover-dark-grey:hover, .dark-gray, .hover-dark-gray:hover {
     color: #fff !important;
     background-color: #616161 !important
 }
-.w3-light-grey, .w3-hover-light-grey:hover, .w3-light-gray, .w3-hover-light-gray:hover {
+.light-grey, .hover-light-grey:hover, .light-gray, .hover-light-gray:hover {
     color: #000 !important;
     background-color: #f1f1f1 !important
 }
-/*
-.w3-hide-small {
-    display:none !important
-}
-*/
-.w3-card, .w3-card-2 {
+.card, .card-2 {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
 }
-.w3-code {
+.code {
     width: auto;
     background-color: #fff;
     padding: 8px 12px;
-    border-left: 4px solid #4CAF50;
+    border-left: 4px solid #4390AD;
     word-wrap: break-word
 }
-.w3-code, .w3-codespan {
+.code, .codespan {
     font-family: Consolas, "courier new";
     font-size: 16px
 }
-.w3-codespan {
+.codespan {
     color: crimson;
     background-color: #f1f1f1;
     padding-left: 4px;
     padding-right: 4px;
     font-size: 110%
 }
-.w3-section, .w3-code {
+.section, .code {
     margin-top: 16px !important;
     margin-bottom: 16px !important
 }
-.w3-border-green, .w3-hover-border-green:hover {
+.border-green, .hover-border-green:hover {
     border-color: #4CAF50 !important
 }
 .rainbow {
