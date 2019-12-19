@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)https://www.soundtrap.com/quade.maiello4 -->
+<html lang="en" id="ng-app" ng-controller="ApplicationCtrl" st-lang-attribute="" class="ng-scope"><head ng-non-bindable=""><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}</style>
+    <!--<base href="/">--><base href=".">
+        <title>quade.maiello4</title>
+    
+    
+        <meta name="description" content="Make music online together by recording and using loops. Invite friends to collaborate. It&#39;s free and no download is required. Works on Mac, Windows, Chromebooks, iPhone, Android and Linux.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="apple-itunes-app" content="app-id=991031323">
+    <meta name="google-site-verification" content="J8JpsDmeYOqJV1m6hQOf0raKsAquUmO4pjc49lm8-Vc">
+    <meta name="referrer" content="origin">
+                 
+
+    <!-- Google Tag Manager -->
+<script type="text/javascript" async="" src="./quade.maiello4_files/b9Rqoo.js.download"></script><script type="text/javascript" async="" src="./quade.maiello4_files/js"></script><script type="text/javascript" async="" src="./quade.maiello4_files/f.txt"></script><script type="text/javascript" async="" src="./quade.maiello4_files/analytics.js.download"></script><script type="text/javascript" async="" src="./quade.maiello4_files/b9R.js.download"></script><script async="" src="./quade.maiello4_files/analytics.js.download"></script><script src="./quade.maiello4_files/144021426022153" async=""></script><script async="" src="./quade.maiello4_files/fbevents.js.download"></script><script async="" src="./quade.maiello4_files/gtm.js.download"></script><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-MDXQVRL');</script>
+<!-- End Google Tag Manager -->
+
+    <!-- Origin Trial Token, feature = AudioWorklet, origin = https://www.soundtrap.com, expires = 2018-04-10 -->
+    <meta http-equiv="origin-trial" data-feature="AudioWorklet" data-expires="2018-04-10" content="Av6brzj13/CnJy5j2bnYCTx/cSYV1ULevf4kB31LoWqQglnOfOackdJavULCS08lzYugg+cPO6+gSslpRTMQuw8AAABXeyJvcmlnaW4iOiJodHRwczovL3d3dy5zb3VuZHRyYXAuY29tOjQ0MyIsImZlYXR1cmUiOiJBdWRpb1dvcmtsZXQiLCJleHBpcnkiOjE1MjMzMTg0MDB9">
+
+              <link href="./quade.maiello4_files/styles.9f1eb3b0406a8cafa44e.css" rel="stylesheet">
+        
+    <link rel="shortcut icon" href="https://www.soundtrap.com/public/images/favicon_16px_b17.png?_=6d2a84d19b65" type="image/png">
+    <link rel="shortcut icon" href="https://www.soundtrap.com/public/images/favicon_32px_b17.png?_=fda946067aa6" type="image/png" sizes="32x32">
+    <link rel="apple-touch-icon" href="https://www.soundtrap.com/public/images/favicon_57px_b17.png?_=257251e1b16c">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://www.soundtrap.com/public/images/favicon_114px_b17.png?_=5dd902d854a9">
+    <link rel="manifest" href="https://www.soundtrap.com/manifest.json">
+        <script type="text/javascript">
+      (function () {
+        if (!navigator.serviceWorker) {
+          return;
+        }
+
+        navigator.serviceWorker.getRegistration('offlinesw.js').then(function(ServiceWorkerRegistration) {
+          if (!ServiceWorkerRegistration) {
+            return;
+          }
+          ServiceWorkerRegistration.unregister().then(function (success) {
+            console.log('Was service worker unregistered? ', success);
+          }).catch(function (reason) {
+            console.log('Service worker unregister failed: ', reason);
+          });
+        }).catch(function (reason) {
+          console.log('Failed to get offlinesw for unregistration. Reason: ', reason);
+        });
+      })();
+    </script>
+    <script type="text/javascript">
+      // GLOBAL config
+      window['com.soundtrap.config'] = {
+        'recurly_public_key' : "ewr1-MQRIq2udGb7Fd8TtrPA7fF",
+        'recurly_us_public_key' : "ewr1-GYKgMa1fHMK222KTGy1RnI",
+        'recurly_row_public_key' : "ewr1-SGjo3NAh7hC75NROxhABC3",
+        'googleAuthClientId': "646313254549-s2tfsgk0b3aimmcmrgj2ojluusime84c.apps.googleusercontent.com",
+        'soundcloudClientId': "20be7f94f4629406fafbebd3035dc68d",
+        'facebookAppId': "349901718375178",
+        'authToken': "bd32194d0b825ff26096ecc2c8425eb7a8974509",
+        'trkPix': true,
+        'msAuthClientId': "e0d6a74d-4b4f-42cb-9cd5-c2a20061315a",
+        'templateCacheBustingTable': {"eduAdminDirectoryView.html":"b6ea5fc93b54624815f43ab07bf7581c","loginBlockResponse.html":"7569dc5d8bf93fcb749d147d1f5f78a6","bulkRoleAssignmentDialog.html":"9282675638ad63a26a383f1a3470db4a","editUserDialog.html":"dd1ca9692ac04a7dd77012adce3a61ea","editCoverPhotoDialog.html":"84fca22f68c23bbbad8ba9b97a0197de","openProjectSupervisedDialog.html":"73610c12fb4764ab4de588d30d397ead","eduRequestDialog.html":"7cd38ea4fe7c22b61de42a4c698bae35","privateProfileTabs.html":"e938b09a096d5b87243dcc0017645f09","timeRestoreDialog.html":"3fda483ad612fcf9e2dc601e49dbd495","collaboratorDialog.html":"efb4ffaa2fff0153f45f0e0bb3402b49","eduCheckoutConfirmationDialog.html":"286d364942e3258382d82e41e0356d04","activationNag/failure.html":"a753717a01aa70e50f7d5cafa49c69f3","userList.html":"2926781ab5bd875ce2fe01be81983012","eduMigrationTermsDialog.html":"22ce5e86bff2c593aaa8a05946699d39","activationNag/emailchanged.html":"24cd3c78186a437cf4b6d302cc80b5e0","pushNotificationDialog.html":"66cf9729747bd4409c5e342bdbd0757d","projectInviteDialog.html":"4f879d1442d8d17fb30c4b9a05128456","msLogin.html":"3e1de47e3e6cee35510b4d76f1d35d20","eduChangeSeatsQuotaDialog.html":"8fa60d6d3371afb868e2913e5ddbdb20","requestTeacherAccountDialog.html":"38c98ac8b50cc53f866d4e2d2330e3cd","bulkRemoveUsersDialog.html":"8f80ae21317737fc3aca02989cd54b9b","eduCanvasConnectDialog.html":"01ea84fe0a1e0c09726457fe6eb22142","eduNagDialog.html":"b88f41dff489d8fe6ec444d0be90edb0","friendInviteDialog.html":"75b78fc3803975c1e193f893baf39c8f","educationalPayDialog.html":"cf162ecee825ce702b92ac013f35313e","recurlyForm.html":"2af7dfcc08014e2bb8d22b7840f0f8c6","updateMemberDialog.html":"05f71d0564763b8fa0a693f530f37bda","createAssignmentDialog.html":"4d93954a4ceb55a8e3a10ba4a3e3e04e","createSchoolDialog.html":"a7912d09663858f2504300a05c6c35bd","purposeDialog.html":"ccacd2e8225ade5d4a4eb8760617f031","soundbite.html":"d41d8cd98f00b204e9800998ecf8427e","passwordChangeView.html":"2dab1e5d6112b55d4073c9919b3433cf","eduAdminPanel.html":"e2e5d556157e80971e4a9c39829ee0a9","educationalCheckoutDialogTrampoline.html":"143a9810e3dd838872a3854046b029a2","requestPaymentByOtherDialog.html":"469f8d324f8cdecc2923352c50b2fe23","activationNag/main.html":"870d43a66a7c8becf2cd0206e902c7b7","eduAgreementDialog.html":"61500426b332850a14e31d8a420ed0dd","feedbackDialog.html":"09b1d9f17e5fd298815b77033296bfb0","eduAdminSidePanel.html":"77c9dada0bc3bf6bd75135ccbb00206b","eduAdminAddUsersView.html":"a3504fcb395be0a9e143b35e70a1f1b6","createMultiSchoolsDialog.html":"383c63a26b51c7c058599163f4e09870","eduAdminSubscriptionView.html":"1972d1dc5639c32dc922e8d5b5b31423","activationNag/resend.html":"8830b11a73c326c52c686c425b7ec087","blockDialog.html":"d0e301f6feb7e775d56f36980ccf291f","shareVideoDialog.html":"c41c1e9d7a99f1c11fc3d907e06c48f4","pricingEducation.html":"4f415d1b6fb6cd5e3b8abb580c80732a","pricingPersonal.html":"6259317fb4491648c6ee29826d820a2d","eduTrialDialog.html":"2c7d10d9625926b7d14677c37568efbf","makeProjectPublicDialog.html":"54f3afd90bc56feeb4231b0eb2ec14a8","profile/privateProfileMiddleBanner.html":"113b28d9af253385694c26c40ada9874","activationNag/success.html":"656c2a934e27aa3781b83f4e17d7cb82","eduAdminTranscriptionsView.html":"628d6a662f0af271b2eaa5c74e6dbd71","pricingPersonalV2.html":"3805431ff18d69d2549dafc8a97a5dc7","moveProjectsDialog.html":"711ef4c093c9505aa9a409bb626f1d31","educationalCheckoutDialog.html":"0904f3ecac55cab92d1df63b37545914","eduRenewalDialog.html":"3812251ee1533d2d05ac53f62800c4fc","profileTile.html":"9fd814ddf14b3ecbf5d9d82e5acded26","eduMemberListing.html":"8cae6ab08e881b20354f4cf941b668ca","mergeAccount.html":"b31cfa7e5630f09062a54f231661c0b3","eduSignupOptionsDialog.html":"355f5a2014fd9be7abe9a5327b7997c3","activationNag/changeemail.html":"9b60cce69e5374ecf5359d1e4e040894","eduAdminGroupView.html":"4d4f484ea0f2b68dda0e1d8b57d87c54","confirmDialog.html":"26fb2dc6723bc4e7e110da380fb3222a","facePileDialog.html":"f0e0a6d0aae74d62ddbd77ab7c1dd5eb","eduSchoologyImportDialog.html":"879ac1c919ab6760f55841d0a23b5470","conversationTitle.html":"335b9c4ed3d9e61e4f3384afcb0fb720","activationNag/sentagain.html":"ae5d07ad159e5778d8235e13de8bd2b1","tagTypeahead.html":"57f2f9ecba16d6f05d4ecd083ce4913d","singleVideoDialog.html":"4c8c526640ee90333a58f04fdfc886ee","addCreatedGroupDialog.html":"de3c7de35721624b3b6754050a617302","checkoutDialog.html":"6b8e1d99ef25e3a7cb8dc8f5f01b0cb4","promotePremium.html":"ebc732acb7a6742ecb94f73ba92a03f2","eduGoogleDirImportDialog.html":"41645f05707dbe476d59a83185dbbc53","tagListDialog.html":"82c9a741d182d56ac122811d8caeeb7a","infoDialog.html":"97ecb71582378ba5224a7dbbf386748e","money.html":"b53939169278204114c33436d5cd1d95","addGroupDialog.html":"02e80c05db05ed88d73d9e88fd64ae77","addToGroupPartialHeaderDialog.html":"e193ea32a721d9b3c66048dbcd0e332b","activationNag/activationNagDialog.html":"e6e1f87775913a9b87bfbc6a6ebf2bc4","dialogs/songexploder.html":"537ede36dae86ff9f61c1a500aa339a6","signupOptionsDialog.html":"13769844b5eb7d500c1ee0f384d47966","pricingEducationTrampoline.html":"5ed81c55a100b525484d96e7c0b96f98","joinSchool.html":"15667f62afdcc1c8727812a1c81761dd","celebrationDialog.html":"2b8600d61c770edadf12722e71c18628","bulkImportDialog.html":"5f39bcb5f0ca12d151b0b6cd52edc1e6","giftSoundtrapDialog.html":"2a1628f983399f8bbe11c3fc0581edd5","eduClassroomImportDialog.html":"fcf85c74ade8faa23e52f4d3e4a39fb5","eduAdminAccountView.html":"e6ba4403c1c02c2a0332a2eab4252a6f","staticArea.html":"e53d6c38b648a29c347a2f7950e946b5","updateBillingInfoDialog.html":"ee58799c7281dd01221f68ae97d2ffe4","eduPayNoTrial.html":"11428a8f321a67ca79048c0fc1757724","sendMessageDialog.html":"b022f63b33819b7c5fd368bf2b698a38","profileListing.html":"f5e9d0f9d3154473bf6e58dca573b9c0","eduAdminPermissionView.html":"d6f8c8240042217b31d6b0a81f89afa4","paymentErrorDialog.html":"4b6f70a83ef9c094466e28dc8f3fcb68","billingInfo.html":"eab3d68a620deb7c407467789647919b","orderSummary.html":"e7a6a95dc02cc98430e735578680529d","claimTrophyDialog.html":"c72f3532a00d1d78adbb2f36383f07cf","basicInputDialog.html":"f19bf62323d038dacfbf4407743cb2fb","contactSalesDialog.html":"d66488fbd773a77e20b8fa6a24e04866","trialDialog.html":"0dacd7355b07d496b14a0498c42a9e21","userTypeahead.html":"f83974d9c5efb4aca53d7f92e279b779","loginFailDialog.html":"c4312bf3d01d61c01b5decf496939093","profile/privateProfileTopBanner.html":"6e86c8c3249cf80683004d7f9976b642","reportDialog.html":"efba73071c16e4ac3558ee9521c0bcd1","utilityDialog.html":"d8bf1b34fadc4b83de3a94155560b9ea","addToGroupPartialDialog.html":"491cfec7a421170be65ef7097650841d","eduDistrictPanel.html":"30f314622b136a4ff800a16bbf3292d9"},
+        'vapidPublicKey': "BDIiCuv2xsmr8otfrWMbzKXOVBCPACwr2iXkZY//Pmls33Tz29Ufp1BjBvPjLg5sLtZb1jcXzX8fCr21Dunhf2U\u003d",
+        'locale': "en",
+        'languageConfigurations': [{"key":"de","web":true,"studio":true,"label":"Deutsch"},{"key":"en","web":true,"studio":true,"label":"English"},{"key":"es","web":true,"studio":true,"label":"Español"},{"key":"fr","web":true,"studio":true,"label":"Français"},{"key":"it","web":false,"studio":false,"label":"Italiano"},{"key":"nl-NL","web":false,"studio":false,"label":"Nederlands"},{"key":"pt","web":false,"studio":false,"label":"Português"},{"key":"pt-BR","web":false,"studio":false,"label":"Português (Brasil)"},{"key":"sv","web":true,"studio":true,"label":"Svenska"}],
+        'recaptchaSitekey': "6LdKDRoUAAAAAHREnv4URRKPfshJnG-LFXmqQJzh",
+        'isLoggedIn': true,
+        'isPlayDevMode': false,
+        'isPlayTestMode': false,
+        'experiments': ["{   \"namespace\": {     \"salt\": \"share_button_exp\",     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"shareButtonExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Share_Button_Experiment\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"control\",                   \"show\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Share_Button_Experiment\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Share_Button_Experiment\",       \"name\": \"Instance_of_Share_Button_Experiment\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"showEduConversionCampaignBannerExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Show_Edu_Conversion_Campaign_Banner_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"control\",                   \"show\"                 ]               },               \"weights\": {                 \"op\": \"array\",                 \"values\": [                   0,                   1                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"weightedChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Show_Edu_Conversion_Campaign_Banner_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Show_Edu_Conversion_Campaign_Banner_Experiment_1\",       \"name\": \"Instance_of_Show_Edu_Conversion_Campaign_Banner_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"eduSignupFieldsReductionExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Edu_Signup_Fields_Reduction_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"control\",                   \"reduce\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Edu_Signup_Fields_Reduction_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Edu_Signup_Fields_Reduction_Experiment_1\",       \"name\": \"Instance_of_Edu_Signup_Fields_Reduction_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"studioUspMessageExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Studio_USP_Message_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"control\",                   \"show\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Studio_USP_Message_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Studio_USP_Message_Experiment_1\",       \"name\": \"Instance_of_Studio_USP_Message_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"salt\": \"three_for_99_annual_offer\",     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"threeFor99AnnualOfferExperiment2\"   },   \"experiment_definitions\": [     {       \"definition\": \"Three_For_99_Annual_Offer_Experiment_2\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"annual_offer\",                   \"savings\",                   \"monthly_control\",                   \"savings_and_annual\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Three_For_99_Annual_Offer_Experiment_2\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Three_For_99_Annual_Offer_Experiment_2\",       \"name\": \"Instance_of_Three_For_99_Annual_Offer_Experiment_2\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"eduSignupFieldsReductionExperiment2\"   },   \"experiment_definitions\": [     {       \"definition\": \"Edu_Signup_Fields_Reduction_Experiment_2\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"control\",                   \"reduce\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Edu_Signup_Fields_Reduction_Experiment_2\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Edu_Signup_Fields_Reduction_Experiment_2\",       \"name\": \"Instance_of_Edu_Signup_Fields_Reduction_Experiment_2\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"pianoRollTutorialExperiment1\"   },   \"experiment_definitions\": [     {       \"definition\": \"Piano_Roll_Tutorial_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"control\",                   \"show\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Piano_Roll_Tutorial_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Piano_Roll_Tutorial_Experiment_1\",       \"name\": \"Instance_of_Piano_Roll_Tutorial_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"inTestGroup\",     \"salt\": \"new_checkout\",     \"segments\": 1,     \"name\": \"newCheckoutPageExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"New_Checkout_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"legacy_checkout_control\",                   \"new_checkout\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"inTestGroup\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"New_Checkout_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"New_Checkout_Experiment_1\",       \"name\": \"Instance_of_New_Checkout_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"disableClipDetectionExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Disable_Clip_Detection_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"clip_detection_enabled_control\",                   \"clip_detection_disabled\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Disable_Clip_Detection_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Disable_Clip_Detection_Experiment_1\",       \"name\": \"Instance_of_Disable_Clip_Detection_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"eduTrialCountdownExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Edu_Trial_Countdown_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"banner_test\",                   \"no_banner_control\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"eduaccountid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Edu_Trial_Countdown_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Edu_Trial_Countdown_Experiment_1\",       \"name\": \"Instance_of_Edu_Trial_Countdown_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"salt\": \"subscribe_banner_after_trial_musicmakers_exp\",     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"subscribeBannerAfterTrialMusicMakersExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Subscribe_Banner_After_Trial_Musicmakers_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"group_a\",                   \"group_b\",                   \"group_c\",                   \"group_d\",                   \"group_e\",                   \"control\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Subscribe_Banner_After_Trial_Musicmakers_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Subscribe_Banner_After_Trial_Musicmakers_Experiment_1\",       \"name\": \"Instance_of_Subscribe_Banner_After_Trial_Musicmakers_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"deleteTrackExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Delete_Track_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"popup_control\",                   \"no_popup_no_toast\",                   \"no_popup_toast\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Delete_Track_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Delete_Track_Experiment_1\",       \"name\": \"Instance_of_Delete_Track_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"showTranscriptExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Show_Transcript_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"show_transcript\",                   \"hide_transcript_control\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Show_Transcript_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Show_Transcript_Experiment_1\",       \"name\": \"Instance_of_Show_Transcript_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"originalsTagExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Originals_Tag_Experiment\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"featured_control\",                   \"originals\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Originals_Tag_Experiment\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Originals_Tag_Experiment\",       \"name\": \"Instance_of_Originals_Tag_Experiment\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"salt\": \"profileBannerCopy\",     \"segments\": 1,     \"name\": \"profileBannerCopyExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Profile_Banner_Copy_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"control\",                   \"new_copy\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Profile_Banner_Copy_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Profile_Banner_Copy_Experiment_1\",       \"name\": \"Instance_Profile_Banner_Copy_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"salt\": \"subscribe_banner_on_trial_exp\",     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"subscribeBannerOnTrialExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Subscribe_Banner_On_Trial_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"group_a\",                   \"group_b\",                   \"group_c\",                   \"control\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Subscribe_Banner_On_Trial_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Subscribe_Banner_On_Trial_Experiment_1\",       \"name\": \"Instance_of_Subscribe_Banner_On_Trial_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"transcriptShortcutsExperiment2\"   },   \"experiment_definitions\": [     {       \"definition\": \"Transcript_Shortcuts_Experiment_2\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"shortcut_purple_control\",                   \"shortcut_standard_test\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Transcript_Shortcuts_Experiment_2\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Transcript_Shortcuts_Experiment_2\",       \"name\": \"Instance_of_Transcript_Shortcuts_Experiment_2\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"tutorialsTooltipExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Tutorials_Tooltip_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"control\",                   \"show\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Tutorials_Tooltip_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Tutorials_Tooltip_Experiment_1\",       \"name\": \"Instance_of_Tutorials_Tooltip_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"salt\": \"subscribe_banner_after_trial_podcasters_exp\",     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"subscribeBannerAfterTrialPodcastersExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Subscribe_Banner_After_Trial_Podcasters_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"group_a\",                   \"group_b\",                   \"group_c\",                   \"group_d\",                   \"group_e\",                   \"control\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Subscribe_Banner_After_Trial_Podcasters_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Subscribe_Banner_After_Trial_Podcasters_Experiment_1\",       \"name\": \"Instance_of_Subscribe_Banner_After_Trial_Podcasters_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"soundtrapOriginalsDialogExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Soundtrap_Originals_Dialog_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"control\",                   \"show\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Soundtrap_Originals_Dialog_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Soundtrap_Originals_Dialog_Experiment_1\",       \"name\": \"Instance_of_Soundtrap_Originals_Dialog_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"salt\": \"savings_copy_banner_experiment\",     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"savingsCopyBannerExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Savings_Copy_Banner_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"control\",                   \"savings_copy\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Savings_Copy_Banner_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Savings_Copy_Banner_Experiment_1\",       \"name\": \"Instance_Savings_Copy_Banner_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"reduceOversamplingExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Reduce_Oversampling_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"oversampling_2x_control\",                   \"oversampling_none\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Reduce_Oversampling_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Reduce_Oversampling_Experiment_1\",       \"name\": \"Instance_of_Reduce_Oversampling_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"studioTemplateDialogExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Studio_Template_Dialog_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"A\",                   \"B\",                   \"C\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Studio_Template_Dialog_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Studio_Template_Dialog_Experiment_1\",       \"name\": \"Instance_of_Studio_Template_Dialog_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"salt\": \"project_invite_dialog_exp\",     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"projectInviteDialogExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Project_Invite_Dialog_Experiment\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"regular_dialog_control\",                   \"link_sharing_dialog\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Project_Invite_Dialog_Experiment\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Project_Invite_Dialog_Experiment\",       \"name\": \"Instance_of_Project_Invite_Dialog_Experiment\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"showInstrumentsExperiment\"   },   \"experiment_definitions\": [     {       \"definition\": \"Show_Instruments_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"none_control\",                   \"piano_player\",                   \"vocals_track\",                   \"beatmaker\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Show_Instruments_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Show_Instruments_Experiment_1\",       \"name\": \"Instance_of_Show_Instruments_Experiment_1\",       \"segments\": 1     }   ] }","{   \"namespace\": {     \"salt\": \"soundtrap_originals\",     \"unit\": \"userid\",     \"segments\": 1,     \"name\": \"soundtrapOriginalsExperiment1\"   },   \"experiment_definitions\": [     {       \"definition\": \"Soundtrap_Originals_Experiment_1\",       \"assign\": {         \"op\": \"seq\",         \"seq\": [           {             \"op\": \"set\",             \"var\": \"version\",             \"value\": {               \"choices\": {                 \"op\": \"array\",                 \"values\": [                   \"no_originals_control\",                   \"originals\"                 ]               },               \"unit\": {                 \"op\": \"get\",                 \"var\": \"userid\"               },               \"op\": \"uniformChoice\"             }           }         ]       }     }   ],   \"default_experiment\": \"Soundtrap_Originals_Experiment_1\",   \"experiment_sequence\": [     {       \"action\": \"add\",       \"definition\": \"Soundtrap_Originals_Experiment_1\",       \"name\": \"Instance_Soundtrap_Originals_Experiment_1\",       \"segments\": 1     }   ] }"],
+        'termsOfUseOld': '/public/legal/terms_of_use.pdf?_=b0dfb79968a0',
+        'termsOfUseUS': 'https://docs.google.com/document/d/e/2PACX-1vSZSSJeyTx0T5KfnJTDdW3iTO8ekVDp48xBSgTOizRf36eUA5pK8PB39SjpvkKBrOM1bN9PUPMF75Yz/pub?embedded=true',
+        'termsOfUseWorld': 'https://docs.google.com/document/d/e/2PACX-1vS-jb3ftqywmVL68baBHaGyATUXvt2Rchz-pv-cxYVCXhz6tDX-jIiMzoFHtpPQwAEZhyTLNT-bpSYE/pub?embedded=true',
+        'termsCampaign3for99': 'https://docs.google.com/document/d/e/2PACX-1vQ3blJJ4WeVUbeatcz9xg9WPH-LwKEqZVU-Cg0MqAAljGPqT_ibjgrjiW8ZX_6EPk-D706cLQYCgC5T/pub?embedded=true',
+        'privacyWorld': 'https://docs.google.com/document/d/e/2PACX-1vRV4CZxFl4sfeW3oKd9LTv4j4nX9cFof-izyG4bBS1VS6YqrlGoPsZn6YAR5_z1iDGkhU-AF86ZKOMU/pub?embedded=true',
+        'privacyEdu': 'https://docs.google.com/document/d/e/2PACX-1vTr9elZbLh-w7k7TU-9amfKBNnCKleTrZ0u26G4X61dIyi7CpIkuHyvY1G2zQ4qBMRcWngsZhgwRYtx/pub?embedded=true',
+        'businessPartners': 'https://docs.google.com/document/d/e/2PACX-1vT0Mw35dc4Go19UmJt4adtpWtpdgR-cfAU6n3yWfPqNXHpc3atqJFZaDW41Ls2eRh-ckuOuJEcEKXiG/pub?embedded=true',
+        'dpa': '/public/legal/dpa.pdf?_=c3a4fc79def9',
+        'creatorCampaignEligibility': "notEligible",
+        'brazeKey': "fa345dba-4227-41da-8b1f-bf1a805d97a9",
+        'brazeUrl': "https://customer.fra-01.braze.eu/api/v3",
+        'contentfullSpace': "h81gvrg2rc15",
+        'contentfullAccessToken': "OTgldQivb_hTWZBNJBeyCQyM6YAiMqTqrrLBpT3zJ48",
+      };
+    </script>
+
+    <script src="./quade.maiello4_files/polyfills.f02826a9da23612d53a8.js.download" type="text/javascript"></script>
+    <script src="./quade.maiello4_files/runtime.ed71f1fafc37e70c5a46.js.download" type="text/javascript"></script>
+    <script src="./quade.maiello4_files/scripts.f58362e67140fd0d20e2.js.download" type="text/javascript"></script>
+    <script src="./quade.maiello4_files/vendor.c850d9f855b98f42eab5.js.download" type="text/javascript"></script>
+    <script src="./quade.maiello4_files/main.2b7a81d8932e5aa6bcf7.js.download" type="text/javascript"></script><style type="text/css"></style>
+
+    <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '144021426022153'); // Insert your pixel ID here.
+fbq('track', 'PageView', {
+  loggedIn: true
+});
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=144021426022153&ev=PageView&noscript=1"
+/></noscript>
+<!-- DO NOT MODIFY -->
+<!-- End Facebook Pixel Code -->
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-35585094-2', 'soundtrap.com');
+ga('set', 'transport', 'beacon');
+    ga('set',{'\x64\x69\x6d\x65\x6e\x73\x69\x6f\x6e\x31':'\x6c\x6f\x67\x67\x65\x64\x5f\x69\x6e','\x64\x69\x6d\x65\x6e\x73\x69\x6f\x6e\x32':'','\x64\x69\x6d\x65\x6e\x73\x69\x6f\x6e\x33':'\x34\x35\x2d\x35\x34','\x64\x69\x6d\x65\x6e\x73\x69\x6f\x6e\x34':'\x31'});
+//ga('send', 'pageview');
+</script>
+  <style>[_nghost-let-c0] {
+      display: block;
+    }
+
+    @media (min-width: 768px) {
+      [_nghost-let-c0] {
+        position: sticky;
+        top: 5rem;
+        z-index: 998;
+      }
+    }
+
+    .banner[_ngcontent-let-c0] {
+      background-color: #FF780A;
+      padding: 10px 0;
+      color: #fff;
+    }
+
+    .banner.purple[_ngcontent-let-c0]   a[_ngcontent-let-c0] {
+      color: white;
+      text-decoration: underline;
+    }
+
+    .banner.purple[_ngcontent-let-c0] {
+      background-color: #5A00AA;
+      padding: 15px 0;
+    }
+
+    .text-wrap[_ngcontent-let-c0] {
+      flex: 0 1 auto;
+      line-height: 22px;
+    }
+
+    p[_ngcontent-let-c0] {
+      font-weight: 600;
+      margin-bottom: 0;
+      flex: 1;
+    }
+
+    .container.center[_ngcontent-let-c0] {
+      justify-content: center;
+    }
+
+    .terms[_ngcontent-let-c0] {
+      font-size: 11px;
+      opacity: 0.8;
+    }
+
+    
+    .btn[_ngcontent-let-c0] {
+      margin-left: 20px;
+      justify-self: flex-end;
+      color: #fff;
+      border-color: #fff;
+    }
+
+    .btn[_ngcontent-let-c0]:hover {
+      background-color: rgba(255, 255, 255, .15);
+    }
+
+    .btn[_ngcontent-let-c0]:active {
+      background-color: rgba(255, 255, 255, .4);
+    }
+
+    .btn.button_special_L[_ngcontent-let-c0]:hover {
+      background-color: rgba(255, 120, 10, 0.6);
+    }
+
+    .button-wrap[_ngcontent-let-c0] {
+      flex: 0 1 auto;
+      justify-content: center;
+      margin-left: 40px;
+      text-align: center;
+    }
+
+    @media (max-width: 768 px) {
+      .button-wrap[_ngcontent-let-c0] {
+        margin-left: 10px;
+      }
+    }
+
+    .button-wrap[_ngcontent-let-c0]   .btn[_ngcontent-let-c0] {
+      margin-left: 0;
+      height: 28px;
+      line-height: 28px;
+      padding: 0 15px;
+      margin-bottom: 3px;
+    }
+
+    .container[_ngcontent-let-c0] {
+      display: flex;
+      align-items: center;
+    }</style><style>[_nghost-let-c1] {
+      background-color: #430877;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #ffffff;
+      display: block;
+      position: relative;
+    }
+    .overlay[_ngcontent-let-c1] {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    .wrapper[_ngcontent-let-c1] {
+      align-items: center;
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      margin: 0 auto;
+      max-width: 960px;
+      padding: 50px 10px;
+      position: relative;
+    }
+    .user-info-wrapper[_ngcontent-let-c1] {
+      display: flex;
+      flex-grow: 1;
+    }
+    .user-info[_ngcontent-let-c1] {
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+      margin-left: 20px;
+    }
+    .user-info[_ngcontent-let-c1]   h1[_ngcontent-let-c1] {
+      color: #ffffff;
+      margin-right: 10px;
+    }
+    .user-info[_ngcontent-let-c1]   a[_ngcontent-let-c1] { color: #ffffff; }
+    .user-name-wrapper[_ngcontent-let-c1] { flex-direction: column; }
+    .user-short-info[_ngcontent-let-c1] { display: none; }
+    .location[_ngcontent-let-c1] {
+      margin-bottom: 20px;
+    }
+    .location[_ngcontent-let-c1]   .soundtrap-icon[_ngcontent-let-c1] {
+      margin-right: 10px;
+    }
+    .profile-img-wrapper[_ngcontent-let-c1] {
+      align-items: center;
+      align-self: center;
+      display: flex;
+      flex-direction: column;
+    }
+    .profile-img[_ngcontent-let-c1] {
+      border: 4px solid rgba(255,255,255,.3);
+      border-radius: 50px;
+      height: 100px;
+      transition: border 0.1s;
+      width: 100px;
+    }
+    .btn-create-soundbite[_ngcontent-let-c1] { margin-top: -20px; }
+    .follow-wrapper[_ngcontent-let-c1], .tags[_ngcontent-let-c1] { display: none; }
+    st-plan-badge[_ngcontent-let-c1] { margin: 10px 0; }
+    st-trophies[_ngcontent-let-c1] { margin-top: 20px; }
+
+    @media(min-width: 768px) {
+      .profile-img[_ngcontent-let-c1] { width: 120px; height: 120px; border-radius: 60px; }
+      .user-info-wrapper[_ngcontent-let-c1] { margin-left: 44px; }
+      st-plan-badge[_ngcontent-let-c1] { margin: 0; }
+      .user-name-wrapper[_ngcontent-let-c1] { align-items: center; display: flex; flex-direction: row; }
+      .user-short-info[_ngcontent-let-c1] { display: block; }
+      .tags[_ngcontent-let-c1] { display: flex; }
+      .follow-wrapper[_ngcontent-let-c1] { align-items: flex-end; display: flex; flex-direction: column; }
+      .user-short-info[_ngcontent-let-c1] {
+        color: #ffffff;
+        display: -webkit-box;
+        margin: 10px 0;
+        max-width: 400px;
+        overflow: hidden;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+      }
+      .tag[_ngcontent-let-c1] {
+        align-items: center;
+        background-color: rgba(255,255,255,.4);
+        border-radius: 4px;
+        color: #ffffff;
+        display: flex;
+        font-size: 13px;
+        height: 26px;
+        margin-right: 10px;
+        padding: 8px;
+        text-decoration: none;
+        text-transform: lowercase;
+      }
+      .tag[_ngcontent-let-c1]:hover { background-color: rgba(255,255,255,.6); }
+      .tag[_ngcontent-let-c1]   .soundtrap-icon[_ngcontent-let-c1] {
+        margin-left: 2px;
+        font-size: 12px;
+      }
+      .edit-profile[_ngcontent-let-c1] {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 17px;
+      }
+      .follow[_ngcontent-let-c1] {
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+        font-weight: 600;
+        margin-top: 20px;
+      }
+      .follow[_ngcontent-let-c1]   a[_ngcontent-let-c1], .following[_ngcontent-let-c1]   a[_ngcontent-let-c1] { color: rgba(255,255,255,.9); text-decoration: none; }
+      .follow[_ngcontent-let-c1]   a[_ngcontent-let-c1]:hover, .following[_ngcontent-let-c1]   a[_ngcontent-let-c1]:hover { color: #ffffff; }
+      .follow-count[_ngcontent-let-c1] {
+        text-align: right;
+        margin-left: 10px;
+      }
+      .follow[_ngcontent-let-c1]   .follower[_ngcontent-let-c1] {
+        margin-bottom: 10px;
+      }
+    }
+
+    @media(min-width: 960px) {
+      .user-info-wrapper[_ngcontent-let-c1] { margin-left: 0; }
+    }</style><style>.wrapper[_ngcontent-let-c3] {
+      align-items: center;
+      background-image: linear-gradient(to right, #EB2D55, #FF9800);
+      border-radius: 8px;
+      color: #ffffff;
+      display: flex;
+      padding: 0 40px;
+      margin: 20px 0 40px;
+      min-height: 100px;
+    }
+    .percent-off[_ngcontent-let-c3] {
+      font-size: 45px;
+      font-weight: 600;
+      margin-right: 20px;
+      white-space: nowrap;
+    }
+    .text-wrapper[_ngcontent-let-c3] {
+      display: flex;
+      align-items: center;
+    }
+    .text[_ngcontent-let-c3] {
+      font-size: 18px;
+      line-height: 18px;
+      margin: 0;
+    }
+    .text[_ngcontent-let-c3]     span {
+      font-size: 13px;
+    }
+    button[_ngcontent-let-c3] {
+      color: #F55F00;
+      font-size: 18px;
+      font-weight: 500;
+      margin-left: auto;
+      min-width: 170px;
+    }
+    button[_ngcontent-let-c3]:hover {
+      color: #FF9800;
+    }
+
+    @media(max-width: 375px) {
+      .wrapper[_ngcontent-let-c3] {
+        flex-direction: column;
+        padding: 40px 20px;
+      }
+      button[_ngcontent-let-c3] {
+        margin: 20px 0 0;
+      }
+    }</style><style>[_nghost-let-c10] {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      z-index: 1000;
+    }
+    .toast[_ngcontent-let-c10] {
+      display: flex;
+      color: white;
+      align-items: center;
+      border-radius: 4px;
+      background-color: #3E1165;
+      max-width: 640px;
+      min-width: 200px;
+      padding: 10px;
+      margin-bottom: 20px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .icon[_ngcontent-let-c10] {
+      width: 34px;
+      height: 34px;
+      flex: 0 0 34px;
+      background-color: #8549CC;
+      border-radius: 50%;
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+    }
+    p[_ngcontent-let-c10] {
+      margin: 10px;
+    }</style><style>[_nghost-let-c4] {
+      margin: 20px 0 30px;
+      display: block;
+    }
+    .invites[_ngcontent-let-c4] {
+      margin-bottom: 40px;
+    }
+    .header[_ngcontent-let-c4] {
+      display: flex;
+      align-itens: center;
+      margin-bottom: 40px;
+    }
+    .buttons[_ngcontent-let-c4] {
+      flex: 1;
+    }
+    .buttons[_ngcontent-let-c4]   .btn[_ngcontent-let-c4] {
+      margin-right: 10px;
+    }
+    .button_GP_L[_ngcontent-let-c4]   .ic-music[_ngcontent-let-c4] {
+      position: relative;
+      top: 2px;
+      padding-right: 2px;
+    }
+    .search[_ngcontent-let-c4] {
+      flex: 0;
+      position: relative;
+    }
+    .create-folder[_ngcontent-let-c4] {
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #9B9B9B;
+      font-size: 15px;
+      border: 2px dashed #D2D2D2;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: 500;
+      transition: all 0.15s;
+    }
+    .create-folder[_ngcontent-let-c4]:hover {
+      transition: none;
+      color: #646464;
+      border: 2px dashed #9B9B9B;
+    }
+    .create-folder[_ngcontent-let-c4]:active {
+      color: #9B9B9B;
+    }
+    @media (max-width: 768px){
+      .start-collab-btn[_ngcontent-let-c4] {
+        display: none;
+      }
+      .search[_ngcontent-let-c4]   input[_ngcontent-let-c4] {
+        width: 200px;
+      }
+    }</style><style>[_nghost-let-c11] {
+      position: relative;
+    }
+    .soundtrap-icon[_ngcontent-let-c11] {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      color: #9B9B9B;
+      z-index: 4;
+    }
+    input[_ngcontent-let-c11] {
+      border-color: #E6E6E6;
+      width: 240px;
+      padding-left: 30px;
+      max-width: 100%;
+    }</style><style>.container[_ngcontent-let-c8] {
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.45);
+      display: flex;
+      justify-content: center;
+      position: relative;
+      z-index: 5;
+    }
+
+    .inner-container[_ngcontent-let-c8] {
+      width: 100%;
+      max-width: 960px;
+      height: 48px;
+      padding: 4px 10px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .left[_ngcontent-let-c8] {
+      color: white;
+      flex-direction: row;
+      display: flex;
+      align-items: center;
+      flex-grow: 1;
+    }
+
+    .left-texts[_ngcontent-let-c8] {
+      flex-grow: 0;
+      flex-shrink: 0;
+      margin-right: 20px;
+    }
+
+    .copytext[_ngcontent-let-c8] {
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .percentage[_ngcontent-let-c8] {
+      font-size: 13px;
+    }
+
+    .background[_ngcontent-let-c8] {
+      flex-grow: 1;
+      height: 4px;
+      border-radius: 4px;
+      background-color: rgba(0, 0, 0, 0.5);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .active[_ngcontent-let-c8] {
+      position: absolute;
+      height: 4px;
+      border-radius: 4px;
+      background-color: #1eca99;
+    }
+
+    .before[_ngcontent-let-c8] {
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 1.5;
+      color: #5A00AA;
+    }
+
+    .steps[_ngcontent-let-c8] {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .step[_ngcontent-let-c8] {
+      display: flex;
+      margin-left: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      color: white;
+      cursor: pointer;
+      white-space: nowrap;
+      align-items: center;
+    }
+
+    .step-icon[_ngcontent-let-c8] {
+      margin-right: 5px;
+    }
+
+    .step--done[_ngcontent-let-c8] {
+      color: #9B9B9B;
+    }
+
+    @media (max-width: 768px) {
+      .steps[_ngcontent-let-c8] {
+        display: none;
+      }
+    }</style><style>[_nghost-let-c9] {
+      margin-top: 17px;
+      color: #646464;
+      font-weight: 600;
+      font-size: 15px;
+      text-align: right;
+    }</style><link rel="stylesheet" href="./quade.maiello4_files/7f85a56ba4.css"><style id="ab-css-definitions-2-3-2">@-webkit-keyframes animSlideIn{0%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,500,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,500,0,0,1)}1.3%{-webkit-transform:matrix3d(1.207,0,0,0,0,1,0,0,0,0,1,0,395.034,0,0,1);transform:matrix3d(1.207,0,0,0,0,1,0,0,0,0,1,0,395.034,0,0,1)}2.55%{-webkit-transform:matrix3d(1.254,0,0,0,0,1,0,0,0,0,1,0,304.663,0,0,1);transform:matrix3d(1.254,0,0,0,0,1,0,0,0,0,1,0,304.663,0,0,1)}4.1%{-webkit-transform:matrix3d(1.216,0,0,0,0,1,0,0,0,0,1,0,209.854,0,0,1);transform:matrix3d(1.216,0,0,0,0,1,0,0,0,0,1,0,209.854,0,0,1)}5.71%{-webkit-transform:matrix3d(1.146,0,0,0,0,1,0,0,0,0,1,0,132.66,0,0,1);transform:matrix3d(1.146,0,0,0,0,1,0,0,0,0,1,0,132.66,0,0,1)}8.11%{-webkit-transform:matrix3d(1.059,0,0,0,0,1,0,0,0,0,1,0,52.745,0,0,1);transform:matrix3d(1.059,0,0,0,0,1,0,0,0,0,1,0,52.745,0,0,1)}8.81%{-webkit-transform:matrix3d(1.041,0,0,0,0,1,0,0,0,0,1,0,36.4,0,0,1);transform:matrix3d(1.041,0,0,0,0,1,0,0,0,0,1,0,36.4,0,0,1)}11.96%{-webkit-transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-8.042,0,0,1);transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-8.042,0,0,1)}12.11%{-webkit-transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-9.217,0,0,1);transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-9.217,0,0,1)}15.07%{-webkit-transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.103,0,0,1);transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.103,0,0,1)}16.12%{-webkit-transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.678,0,0,1);transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.678,0,0,1)}27.23%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.919,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.919,0,0,1)}27.58%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.534,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.534,0,0,1)}38.34%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.518,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.518,0,0,1)}40.09%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.485,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.485,0,0,1)}50%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.08,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.08,0,0,1)}60.56%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-.012,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-.012,0,0,1)}82.78%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}100%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}}@keyframes animSlideIn{0%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,500,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,500,0,0,1)}1.3%{-webkit-transform:matrix3d(1.207,0,0,0,0,1,0,0,0,0,1,0,395.034,0,0,1);transform:matrix3d(1.207,0,0,0,0,1,0,0,0,0,1,0,395.034,0,0,1)}2.55%{-webkit-transform:matrix3d(1.254,0,0,0,0,1,0,0,0,0,1,0,304.663,0,0,1);transform:matrix3d(1.254,0,0,0,0,1,0,0,0,0,1,0,304.663,0,0,1)}4.1%{-webkit-transform:matrix3d(1.216,0,0,0,0,1,0,0,0,0,1,0,209.854,0,0,1);transform:matrix3d(1.216,0,0,0,0,1,0,0,0,0,1,0,209.854,0,0,1)}5.71%{-webkit-transform:matrix3d(1.146,0,0,0,0,1,0,0,0,0,1,0,132.66,0,0,1);transform:matrix3d(1.146,0,0,0,0,1,0,0,0,0,1,0,132.66,0,0,1)}8.11%{-webkit-transform:matrix3d(1.059,0,0,0,0,1,0,0,0,0,1,0,52.745,0,0,1);transform:matrix3d(1.059,0,0,0,0,1,0,0,0,0,1,0,52.745,0,0,1)}8.81%{-webkit-transform:matrix3d(1.041,0,0,0,0,1,0,0,0,0,1,0,36.4,0,0,1);transform:matrix3d(1.041,0,0,0,0,1,0,0,0,0,1,0,36.4,0,0,1)}11.96%{-webkit-transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-8.042,0,0,1);transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-8.042,0,0,1)}12.11%{-webkit-transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-9.217,0,0,1);transform:matrix3d(1.002,0,0,0,0,1,0,0,0,0,1,0,-9.217,0,0,1)}15.07%{-webkit-transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.103,0,0,1);transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.103,0,0,1)}16.12%{-webkit-transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.678,0,0,1);transform:matrix3d(.996,0,0,0,0,1,0,0,0,0,1,0,-21.678,0,0,1)}27.23%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.919,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.919,0,0,1)}27.58%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.534,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-3.534,0,0,1)}38.34%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.518,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.518,0,0,1)}40.09%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.485,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.485,0,0,1)}50%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.08,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,.08,0,0,1)}60.56%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-.012,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,-.012,0,0,1)}82.78%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}100%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}}@-webkit-keyframes animSlideOut{0%{-webkit-transform:translate3d(0,0,0)}100%{-webkit-transform:translate3d(300px,0,0) translate3d(100%,0,0)}}@keyframes animSlideOut{0%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}100%{-webkit-transform:translate3d(300px,0,0) translate3d(100%,0,0);transform:translate3d(300px,0,0) translate3d(100%,0,0)}}@-webkit-keyframes animSlideLeft{0%{-webkit-transform:translate3d(0,0,0)}100%{-webkit-transform:translate3d(-300px,0,0) translate3d(-100%,0,0)}}@keyframes animSlideLeft{0%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}100%{-webkit-transform:translate3d(-300px,0,0) translate3d(-100%,0,0);transform:translate3d(-300px,0,0) translate3d(-100%,0,0)}}@-webkit-keyframes slideUp{0%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,3000,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,3000,0,1)}2.1%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,2097.078,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,2097.078,0,1)}4.2%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1451.432,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1451.432,0,1)}8.41%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,673.918,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,673.918,0,1)}12.61%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,298.665,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,298.665,0,1)}16.72%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,127.615,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,127.615,0,1)}25.03%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,17.095,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,17.095,0,1)}33.33%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}39.14%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1.13,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1.13,0,1)}100%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}}@keyframes slideUp{0%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,3000,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,3000,0,1)}2.1%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,2097.078,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,2097.078,0,1)}4.2%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1451.432,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1451.432,0,1)}8.41%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,673.918,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,673.918,0,1)}12.61%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,298.665,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,298.665,0,1)}16.72%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,127.615,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,127.615,0,1)}25.03%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,17.095,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,17.095,0,1)}33.33%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}39.14%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1.13,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,1.13,0,1)}100%{-webkit-transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);transform:matrix3d(1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1)}}.ab-pause-scrolling,body.ab-pause-scrolling,html.ab-pause-scrolling{overflow:hidden;touch-action:none}.ab-centering-div,.ab-iam-root.v3{position:fixed;top:0;right:0;bottom:0;left:0;pointer-events:none;z-index:1050;-webkit-tap-highlight-color:transparent}.ab-centering-div:focus,.ab-iam-root.v3:focus{outline:0}.ab-centering-div.ab-effect-fullscreen,.ab-centering-div.ab-effect-html,.ab-centering-div.ab-effect-modal,.ab-iam-root.v3.ab-effect-fullscreen,.ab-iam-root.v3.ab-effect-html,.ab-iam-root.v3.ab-effect-modal{opacity:0}.ab-centering-div.ab-effect-fullscreen.ab-show,.ab-centering-div.ab-effect-html.ab-show,.ab-centering-div.ab-effect-modal.ab-show,.ab-iam-root.v3.ab-effect-fullscreen.ab-show,.ab-iam-root.v3.ab-effect-html.ab-show,.ab-iam-root.v3.ab-effect-modal.ab-show{opacity:1}.ab-centering-div.ab-effect-fullscreen.ab-show.ab-animate-in,.ab-centering-div.ab-effect-html.ab-show.ab-animate-in,.ab-centering-div.ab-effect-modal.ab-show.ab-animate-in,.ab-iam-root.v3.ab-effect-fullscreen.ab-show.ab-animate-in,.ab-iam-root.v3.ab-effect-html.ab-show.ab-animate-in,.ab-iam-root.v3.ab-effect-modal.ab-show.ab-animate-in{-webkit-transition:opacity .5s;-moz-transition:opacity .5s;-o-transition:opacity .5s;transition:opacity .5s}.ab-centering-div.ab-effect-fullscreen.ab-hide,.ab-centering-div.ab-effect-html.ab-hide,.ab-centering-div.ab-effect-modal.ab-hide,.ab-iam-root.v3.ab-effect-fullscreen.ab-hide,.ab-iam-root.v3.ab-effect-html.ab-hide,.ab-iam-root.v3.ab-effect-modal.ab-hide{opacity:0}.ab-centering-div.ab-effect-fullscreen.ab-hide.ab-animate-out,.ab-centering-div.ab-effect-html.ab-hide.ab-animate-out,.ab-centering-div.ab-effect-modal.ab-hide.ab-animate-out,.ab-iam-root.v3.ab-effect-fullscreen.ab-hide.ab-animate-out,.ab-iam-root.v3.ab-effect-html.ab-hide.ab-animate-out,.ab-iam-root.v3.ab-effect-modal.ab-hide.ab-animate-out{-webkit-transition:opacity .5s;-moz-transition:opacity .5s;-o-transition:opacity .5s;transition:opacity .5s}.ab-centering-div.ab-effect-slide .ab-in-app-message,.ab-iam-root.v3.ab-effect-slide .ab-in-app-message{-webkit-transform:translateX(535px);-moz-transform:translateX(535px);-ms-transform:translateX(535px);transform:translateX(535px)}.ab-centering-div.ab-effect-slide.ab-show .ab-in-app-message,.ab-iam-root.v3.ab-effect-slide.ab-show .ab-in-app-message{-webkit-transform:translateX(0);-moz-transform:translateX(0);-ms-transform:translateX(0);transform:translateX(0)}.ab-centering-div.ab-effect-slide.ab-show.ab-animate-in .ab-in-app-message,.ab-iam-root.v3.ab-effect-slide.ab-show.ab-animate-in .ab-in-app-message{-webkit-transition:transform .25s ease-in-out;-moz-transition:transform .25s ease-in-out;-o-transition:transform .25s ease-in-out;transition:transform .25s ease-in-out}.ab-centering-div.ab-effect-slide.ab-hide .ab-in-app-message,.ab-iam-root.v3.ab-effect-slide.ab-hide .ab-in-app-message{-webkit-transform:translateX(535px);-moz-transform:translateX(535px);-ms-transform:translateX(535px);transform:translateX(535px)}.ab-centering-div.ab-effect-slide.ab-hide .ab-in-app-message.ab-swiped-left,.ab-iam-root.v3.ab-effect-slide.ab-hide .ab-in-app-message.ab-swiped-left{-webkit-transform:translateX(-535px);-moz-transform:translateX(-535px);-ms-transform:translateX(-535px);transform:translateX(-535px)}.ab-centering-div.ab-effect-slide.ab-hide .ab-in-app-message.ab-swiped-up,.ab-iam-root.v3.ab-effect-slide.ab-hide .ab-in-app-message.ab-swiped-up{-webkit-transform:translateY(-535px);-moz-transform:translateY(-535px);-ms-transform:translateY(-535px);transform:translateY(-535px)}.ab-centering-div.ab-effect-slide.ab-hide .ab-in-app-message.ab-swiped-down,.ab-iam-root.v3.ab-effect-slide.ab-hide .ab-in-app-message.ab-swiped-down{-webkit-transform:translateY(535px);-moz-transform:translateY(535px);-ms-transform:translateY(535px);transform:translateY(535px)}.ab-centering-div.ab-effect-slide.ab-hide.ab-animate-out .ab-in-app-message,.ab-iam-root.v3.ab-effect-slide.ab-hide.ab-animate-out .ab-in-app-message{-webkit-transition:transform .25s ease-in-out;-moz-transition:transform .25s ease-in-out;-o-transition:transform .25s ease-in-out;transition:transform .25s ease-in-out}.ab-centering-div .ab-ios-scroll-wrapper,.ab-iam-root.v3 .ab-ios-scroll-wrapper{position:fixed;top:0;right:0;bottom:0;left:0;overflow:auto;pointer-events:all;touch-action:auto;-webkit-overflow-scrolling:touch}.ab-centering-div .ab-in-app-message,.ab-iam-root.v3 .ab-in-app-message{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;position:fixed;text-align:center;-webkit-box-shadow:0 0 4px rgba(0,0,0,.3);-moz-box-shadow:0 0 4px rgba(0,0,0,.3);box-shadow:0 0 4px rgba(0,0,0,.3);line-height:normal;letter-spacing:normal;font-family:'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;z-index:1050;max-width:100%;overflow:hidden;display:inline-block;pointer-events:all;color:#333}.ab-centering-div .ab-in-app-message.ab-no-shadow,.ab-iam-root.v3 .ab-in-app-message.ab-no-shadow{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}.ab-centering-div .ab-in-app-message :focus,.ab-centering-div .ab-in-app-message:focus,.ab-iam-root.v3 .ab-in-app-message :focus,.ab-iam-root.v3 .ab-in-app-message:focus{outline:0}.ab-centering-div .ab-in-app-message.ab-clickable,.ab-iam-root.v3 .ab-in-app-message.ab-clickable{cursor:pointer}.ab-centering-div .ab-in-app-message.ab-background,.ab-iam-root.v3 .ab-in-app-message.ab-background{background-color:#fff}.ab-centering-div .ab-in-app-message .ab-close-button,.ab-iam-root.v3 .ab-in-app-message .ab-close-button{cursor:pointer;display:block;position:absolute;text-align:center;z-index:1060;top:0;right:0;padding-top:15px;padding-right:15px;padding-left:10px;padding-bottom:10px;font-size:15px;width:15px;height:15px;-webkit-border-radius:7.5px;-moz-border-radius:7.5px;border-radius:7.5px;background-repeat:no-repeat;background-origin:content-box;background-size:15px}.ab-centering-div .ab-in-app-message .ab-close-button svg,.ab-iam-root.v3 .ab-in-app-message .ab-close-button svg{-webkit-transition:.2s ease;-moz-transition:.2s ease;-o-transition:.2s ease;transition:.2s ease;fill:#9b9b9b}.ab-centering-div .ab-in-app-message .ab-close-button svg.ab-chevron,.ab-iam-root.v3 .ab-in-app-message .ab-close-button svg.ab-chevron{display:none}.ab-centering-div .ab-in-app-message .ab-close-button:hover svg,.ab-iam-root.v3 .ab-in-app-message .ab-close-button:hover svg{fill-opacity:.8}.ab-centering-div .ab-in-app-message .ab-message-text,.ab-iam-root.v3 .ab-in-app-message .ab-message-text{line-height:1.5;margin:20px 25px;max-width:100%;overflow:hidden;overflow-y:auto;vertical-align:text-bottom;word-wrap:break-word;white-space:pre-wrap}.ab-centering-div .ab-in-app-message .ab-message-text.start-aligned,.ab-iam-root.v3 .ab-in-app-message .ab-message-text.start-aligned{text-align:left;text-align:start}.ab-centering-div .ab-in-app-message .ab-message-text.end-aligned,.ab-iam-root.v3 .ab-in-app-message .ab-message-text.end-aligned{text-align:right;text-align:end}.ab-centering-div .ab-in-app-message .ab-message-text.center-aligned,.ab-iam-root.v3 .ab-in-app-message .ab-message-text.center-aligned{text-align:center}.ab-centering-div .ab-in-app-message .ab-message-text::-webkit-scrollbar,.ab-iam-root.v3 .ab-in-app-message .ab-message-text::-webkit-scrollbar{-webkit-appearance:none;width:14px}.ab-centering-div .ab-in-app-message .ab-message-text::-webkit-scrollbar-thumb,.ab-iam-root.v3 .ab-in-app-message .ab-message-text::-webkit-scrollbar-thumb{-webkit-appearance:none;border:4px solid transparent;background-clip:padding-box;-webkit-border-radius:7px;-moz-border-radius:7px;border-radius:7px;background-color:rgba(0,0,0,.2)}.ab-centering-div .ab-in-app-message .ab-message-text::-webkit-scrollbar-button,.ab-iam-root.v3 .ab-in-app-message .ab-message-text::-webkit-scrollbar-button{width:0;height:0;display:none}.ab-centering-div .ab-in-app-message .ab-message-text::-webkit-scrollbar-corner,.ab-iam-root.v3 .ab-in-app-message .ab-message-text::-webkit-scrollbar-corner{background-color:transparent}.ab-centering-div .ab-in-app-message .ab-message-header,.ab-iam-root.v3 .ab-in-app-message .ab-message-header{display:block;font-weight:700;font-size:20px;margin-bottom:10px;line-height:1.3}.ab-centering-div .ab-in-app-message .ab-message-header.start-aligned,.ab-iam-root.v3 .ab-in-app-message .ab-message-header.start-aligned{text-align:left;text-align:start}.ab-centering-div .ab-in-app-message .ab-message-header.end-aligned,.ab-iam-root.v3 .ab-in-app-message .ab-message-header.end-aligned{text-align:right;text-align:end}.ab-centering-div .ab-in-app-message .ab-message-header.center-aligned,.ab-iam-root.v3 .ab-in-app-message .ab-message-header.center-aligned{text-align:center}.ab-centering-div .ab-in-app-message.ab-fullscreen,.ab-centering-div .ab-in-app-message.ab-modal,.ab-centering-div .ab-in-app-message.ab-slideup,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen,.ab-iam-root.v3 .ab-in-app-message.ab-modal,.ab-iam-root.v3 .ab-in-app-message.ab-slideup{-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px}.ab-centering-div .ab-in-app-message.ab-slideup,.ab-iam-root.v3 .ab-in-app-message.ab-slideup{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;cursor:pointer;overflow:hidden;word-wrap:break-word;text-overflow:ellipsis;font-size:14px;font-weight:700;margin:20px;margin-top:calc(constant(safe-area-inset-top,0) + 20px);margin-right:calc(constant(safe-area-inset-right,0) + 20px);margin-bottom:calc(constant(safe-area-inset-bottom,0) + 20px);margin-left:calc(constant(safe-area-inset-left,0) + 20px);margin-top:calc(env(safe-area-inset-top,0) + 20px);margin-right:calc(env(safe-area-inset-right,0) + 20px);margin-bottom:calc(env(safe-area-inset-bottom,0) + 20px);margin-left:calc(env(safe-area-inset-left,0) + 20px);max-height:150px;padding:10px;right:0;background-color:#efefef}.ab-centering-div .ab-in-app-message.ab-slideup.simulate-phone,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.simulate-phone{max-height:66px;margin:10px;margin-top:calc(constant(safe-area-inset-top,0) + 10px);margin-right:calc(constant(safe-area-inset-right,0) + 10px);margin-bottom:calc(constant(safe-area-inset-bottom,0) + 10px);margin-left:calc(constant(safe-area-inset-left,0) + 10px);margin-top:calc(env(safe-area-inset-top,0) + 10px);margin-right:calc(env(safe-area-inset-right,0) + 10px);margin-bottom:calc(env(safe-area-inset-bottom,0) + 10px);margin-left:calc(env(safe-area-inset-left,0) + 10px);max-width:90%;max-width:calc(100% - 40px);min-width:90%;min-width:calc(100% - 40px)}.ab-centering-div .ab-in-app-message.ab-slideup.simulate-phone .ab-close-button,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.simulate-phone .ab-close-button{display:none}.ab-centering-div .ab-in-app-message.ab-slideup.simulate-phone .ab-close-button svg:not(.ab-chevron),.ab-iam-root.v3 .ab-in-app-message.ab-slideup.simulate-phone .ab-close-button svg:not(.ab-chevron){display:none}.ab-centering-div .ab-in-app-message.ab-slideup.simulate-phone.ab-clickable .ab-close-button,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.simulate-phone.ab-clickable .ab-close-button{display:block;height:20px;padding:0 20px 0 18px;pointer-events:none;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);width:12px}.ab-centering-div .ab-in-app-message.ab-slideup.simulate-phone.ab-clickable .ab-close-button svg.ab-chevron,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.simulate-phone.ab-clickable .ab-close-button svg.ab-chevron{display:inline}.ab-centering-div .ab-in-app-message.ab-slideup.simulate-phone.ab-clickable .ab-message-text,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.simulate-phone.ab-clickable .ab-message-text{border-right-width:40px}.ab-centering-div .ab-in-app-message.ab-slideup.simulate-phone .ab-message-text,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.simulate-phone .ab-message-text{max-width:100%;border-right-width:10px}.ab-centering-div .ab-in-app-message.ab-slideup.simulate-phone .ab-message-text span,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.simulate-phone .ab-message-text span{max-height:66px}.ab-centering-div .ab-in-app-message.ab-slideup.simulate-phone .ab-message-text.ab-with-icon,.ab-centering-div .ab-in-app-message.ab-slideup.simulate-phone .ab-message-text.ab-with-image,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.simulate-phone .ab-message-text.ab-with-icon,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.simulate-phone .ab-message-text.ab-with-image{max-width:80%;max-width:calc(100% - 50px - 5px - 10px - 25px)}.ab-centering-div .ab-in-app-message.ab-slideup.simulate-phone .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.simulate-phone .ab-image-area{width:50px}.ab-centering-div .ab-in-app-message.ab-slideup.simulate-phone .ab-image-area img,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.simulate-phone .ab-image-area img{max-width:50px;max-height:50px;width:auto}.ab-centering-div .ab-in-app-message.ab-slideup.ab-clickable:active .ab-message-text,.ab-centering-div .ab-in-app-message.ab-slideup.ab-clickable:focus .ab-message-text,.ab-centering-div .ab-in-app-message.ab-slideup.ab-clickable:hover .ab-message-text,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.ab-clickable:active .ab-message-text,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.ab-clickable:focus .ab-message-text,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.ab-clickable:hover .ab-message-text{opacity:.8}.ab-centering-div .ab-in-app-message.ab-slideup.ab-clickable:active .ab-close-button svg.ab-chevron,.ab-centering-div .ab-in-app-message.ab-slideup.ab-clickable:focus .ab-close-button svg.ab-chevron,.ab-centering-div .ab-in-app-message.ab-slideup.ab-clickable:hover .ab-close-button svg.ab-chevron,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.ab-clickable:active .ab-close-button svg.ab-chevron,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.ab-clickable:focus .ab-close-button svg.ab-chevron,.ab-iam-root.v3 .ab-in-app-message.ab-slideup.ab-clickable:hover .ab-close-button svg.ab-chevron{fill-opacity:.8}.ab-centering-div .ab-in-app-message.ab-slideup .ab-message-text,.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-message-text{display:table-cell;border-color:transparent;border-style:solid;border-width:5px 25px 5px 10px;max-width:430px;vertical-align:middle;margin:0}.ab-centering-div .ab-in-app-message.ab-slideup .ab-message-text span,.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-message-text span{display:block;max-height:150px;overflow:auto}.ab-centering-div .ab-in-app-message.ab-slideup .ab-message-text.ab-with-icon,.ab-centering-div .ab-in-app-message.ab-slideup .ab-message-text.ab-with-image,.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-message-text.ab-with-icon,.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-message-text.ab-with-image{max-width:365px;border-top:0;border-bottom:0}.ab-centering-div .ab-in-app-message.ab-slideup .ab-close-button,.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-close-button{top:0;right:0;padding-top:10px;padding-right:10px;padding-left:6.66666667px;padding-bottom:6.66666667px;font-size:15px;width:15px;height:15px;-webkit-border-radius:7.5px;-moz-border-radius:7.5px;border-radius:7.5px;background-repeat:no-repeat;background-origin:content-box;background-size:15px}.ab-centering-div .ab-in-app-message.ab-slideup .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-image-area{display:table-cell;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;vertical-align:top;width:60px;margin:0}.ab-centering-div .ab-in-app-message.ab-slideup .ab-image-area.ab-icon-area,.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-image-area.ab-icon-area{width:auto}.ab-centering-div .ab-in-app-message.ab-slideup .ab-image-area img,.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-image-area img{width:100%}.ab-centering-div .ab-in-app-message.ab-fullscreen,.ab-centering-div .ab-in-app-message.ab-modal,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen,.ab-iam-root.v3 .ab-in-app-message.ab-modal{font-size:14px}.ab-centering-div .ab-in-app-message.ab-fullscreen .ab-image-area,.ab-centering-div .ab-in-app-message.ab-modal .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-image-area{position:relative;display:block;overflow:hidden}.ab-centering-div .ab-in-app-message.ab-fullscreen .ab-image-area .ab-center-cropped-img,.ab-centering-div .ab-in-app-message.ab-modal .ab-image-area .ab-center-cropped-img,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen .ab-image-area .ab-center-cropped-img,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-image-area .ab-center-cropped-img{background-size:cover;background-repeat:no-repeat;background-position:50% 50%;position:absolute;top:0;right:0;bottom:0;left:0}.ab-centering-div .ab-in-app-message.ab-fullscreen .ab-icon,.ab-centering-div .ab-in-app-message.ab-modal .ab-icon,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen .ab-icon,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-icon{margin-top:20px}.ab-centering-div .ab-in-app-message.ab-fullscreen.graphic,.ab-centering-div .ab-in-app-message.ab-modal.graphic,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.graphic,.ab-iam-root.v3 .ab-in-app-message.ab-modal.graphic{padding:0}.ab-centering-div .ab-in-app-message.ab-fullscreen.graphic .ab-message-text,.ab-centering-div .ab-in-app-message.ab-modal.graphic .ab-message-text,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.graphic .ab-message-text,.ab-iam-root.v3 .ab-in-app-message.ab-modal.graphic .ab-message-text{display:none}.ab-centering-div .ab-in-app-message.ab-fullscreen.graphic .ab-message-buttons,.ab-centering-div .ab-in-app-message.ab-modal.graphic .ab-message-buttons,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.graphic .ab-message-buttons,.ab-iam-root.v3 .ab-in-app-message.ab-modal.graphic .ab-message-buttons{bottom:0;left:0}.ab-centering-div .ab-in-app-message.ab-fullscreen.graphic .ab-image-area,.ab-centering-div .ab-in-app-message.ab-modal.graphic .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.graphic .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-modal.graphic .ab-image-area{height:auto;margin:0}.ab-centering-div .ab-in-app-message.ab-fullscreen.graphic .ab-image-area img,.ab-centering-div .ab-in-app-message.ab-modal.graphic .ab-image-area img,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.graphic .ab-image-area img,.ab-iam-root.v3 .ab-in-app-message.ab-modal.graphic .ab-image-area img{display:block;top:0;-webkit-transform:none;-moz-transform:none;-ms-transform:none;transform:none}.ab-centering-div .ab-in-app-message.ab-modal,.ab-iam-root.v3 .ab-in-app-message.ab-modal{padding-top:20px;width:450px;max-width:450px;max-height:720px}.ab-centering-div .ab-in-app-message.ab-modal.simulate-phone,.ab-iam-root.v3 .ab-in-app-message.ab-modal.simulate-phone{max-width:91%;max-width:calc(100% - 30px)}.ab-centering-div .ab-in-app-message.ab-modal.simulate-phone.graphic .ab-image-area img,.ab-iam-root.v3 .ab-in-app-message.ab-modal.simulate-phone.graphic .ab-image-area img{max-width:91vw;max-width:calc(100vw - 30px)}.ab-centering-div .ab-in-app-message.ab-modal .ab-message-text,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-message-text{max-height:660px}.ab-centering-div .ab-in-app-message.ab-modal .ab-message-text.ab-with-image,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-message-text.ab-with-image{max-height:524.82758621px}.ab-centering-div .ab-in-app-message.ab-modal .ab-message-text.ab-with-icon,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-message-text.ab-with-icon{max-height:610px}.ab-centering-div .ab-in-app-message.ab-modal .ab-message-text.ab-with-buttons,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-message-text.ab-with-buttons{margin-bottom:93px;max-height:587px}.ab-centering-div .ab-in-app-message.ab-modal .ab-message-text.ab-with-buttons.ab-with-image,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-message-text.ab-with-buttons.ab-with-image{max-height:451.82758621px}.ab-centering-div .ab-in-app-message.ab-modal .ab-message-text.ab-with-buttons.ab-with-icon,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-message-text.ab-with-buttons.ab-with-icon{max-height:537px}.ab-centering-div .ab-in-app-message.ab-modal .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-image-area{margin-top:-20px;max-height:155.17241379px}.ab-centering-div .ab-in-app-message.ab-modal .ab-image-area img,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-image-area img{max-width:100%;max-height:155.17241379px}.ab-centering-div .ab-in-app-message.ab-modal .ab-image-area.ab-icon-area,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-image-area.ab-icon-area{height:auto}.ab-centering-div .ab-in-app-message.ab-modal.graphic,.ab-iam-root.v3 .ab-in-app-message.ab-modal.graphic{width:auto;overflow:hidden}.ab-centering-div .ab-in-app-message.ab-modal.graphic .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-modal.graphic .ab-image-area{display:inline}.ab-centering-div .ab-in-app-message.ab-modal.graphic .ab-image-area img,.ab-iam-root.v3 .ab-in-app-message.ab-modal.graphic .ab-image-area img{max-height:720px;max-width:450px}.ab-centering-div .ab-in-app-message.ab-fullscreen,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen{width:450px;max-height:720px}.ab-centering-div .ab-in-app-message.ab-fullscreen.landscape,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape{width:720px;max-height:450px}.ab-centering-div .ab-in-app-message.ab-fullscreen.landscape .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape .ab-image-area{height:225px}.ab-centering-div .ab-in-app-message.ab-fullscreen.landscape.graphic .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape.graphic .ab-image-area{height:450px}.ab-centering-div .ab-in-app-message.ab-fullscreen.landscape .ab-message-text,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape .ab-message-text{max-height:112px}.ab-centering-div .ab-in-app-message.ab-fullscreen .ab-message-text,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen .ab-message-text{max-height:247px}.ab-centering-div .ab-in-app-message.ab-fullscreen .ab-message-text.ab-with-buttons,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen .ab-message-text.ab-with-buttons{margin-bottom:93px}.ab-centering-div .ab-in-app-message.ab-fullscreen .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen .ab-image-area{height:360px}.ab-centering-div .ab-in-app-message.ab-fullscreen.graphic .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.graphic .ab-image-area{height:720px}.ab-centering-div .ab-in-app-message.ab-fullscreen.simulate-phone,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.simulate-phone{-webkit-transition:top none;-moz-transition:top none;-o-transition:top none;transition:top none;top:0;right:0;bottom:0;left:0;height:100%;width:100%;max-height:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-transform:none;-moz-transform:none;-ms-transform:none;transform:none;height:auto!important}.ab-centering-div .ab-in-app-message.ab-fullscreen.simulate-phone .ab-image-area,.ab-centering-div .ab-in-app-message.ab-fullscreen.simulate-phone.landscape .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.simulate-phone .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.simulate-phone.landscape .ab-image-area{height:50%}.ab-centering-div .ab-in-app-message.ab-fullscreen.simulate-phone .ab-message-text.ab-with-buttons,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.simulate-phone .ab-message-text.ab-with-buttons{margin-bottom:20px;margin-bottom:calc(constant(safe-area-inset-bottom,0) + 20px);margin-bottom:calc(env(safe-area-inset-bottom,0) + 20px);max-height:30%;max-height:calc(50% - 93px - 20px);max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px - env(safe-area-inset-bottom,0))}.ab-centering-div .ab-in-app-message.ab-fullscreen.simulate-phone.landscape .ab-message-text.ab-with-buttons,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.simulate-phone.landscape .ab-message-text.ab-with-buttons{max-height:20%;max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0) - env(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px);max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px - env(safe-area-inset-bottom,0))}.ab-centering-div .ab-in-app-message.ab-fullscreen.simulate-phone:not(.graphic) .ab-message-buttons,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.simulate-phone:not(.graphic) .ab-message-buttons{padding-top:0;position:relative}.ab-centering-div .ab-in-app-message.ab-fullscreen.simulate-phone.graphic,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.simulate-phone.graphic{display:block}.ab-centering-div .ab-in-app-message.ab-fullscreen.simulate-phone.graphic .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.simulate-phone.graphic .ab-image-area{height:100%}.ab-centering-div .ab-in-app-message.ab-html-message,.ab-iam-root.v3 .ab-in-app-message.ab-html-message{background-color:transparent;border:none;height:100%;overflow:auto;position:relative;touch-action:auto;width:100%}.ab-centering-div .ab-in-app-message .ab-message-buttons,.ab-iam-root.v3 .ab-in-app-message .ab-message-buttons{position:absolute;bottom:0;width:100%;padding:17px 25px 30px 25px;z-index:inherit;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}.ab-centering-div .ab-in-app-message .ab-message-button,.ab-iam-root.v3 .ab-in-app-message .ab-message-button{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;cursor:pointer;display:inline-block;font-size:14px;font-weight:700;height:44px;line-height:normal;letter-spacing:normal;margin:0;max-width:100%;min-width:80px;padding:0 12px;position:relative;text-transform:none;width:48%;width:calc(50% - 5px);border:1px solid #1b78cf;-webkit-transition:.2s ease;-moz-transition:.2s ease;-o-transition:.2s ease;transition:.2s ease;overflow:hidden;word-wrap:break-word;text-overflow:ellipsis;word-wrap:normal;white-space:nowrap}.ab-centering-div .ab-in-app-message .ab-message-button:first-of-type,.ab-iam-root.v3 .ab-in-app-message .ab-message-button:first-of-type{float:left;background-color:#fff;color:#1b78cf}.ab-centering-div .ab-in-app-message .ab-message-button:last-of-type,.ab-iam-root.v3 .ab-in-app-message .ab-message-button:last-of-type{float:right;background-color:#1b78cf;color:#fff}.ab-centering-div .ab-in-app-message .ab-message-button:first-of-type:last-of-type,.ab-iam-root.v3 .ab-in-app-message .ab-message-button:first-of-type:last-of-type{float:none;width:auto}.ab-centering-div .ab-in-app-message .ab-message-button:after,.ab-iam-root.v3 .ab-in-app-message .ab-message-button:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color:transparent}.ab-centering-div .ab-in-app-message .ab-message-button:after,.ab-iam-root.v3 .ab-in-app-message .ab-message-button:after{-webkit-transition:.2s ease;-moz-transition:.2s ease;-o-transition:.2s ease;transition:.2s ease}.ab-centering-div .ab-in-app-message .ab-message-button:hover,.ab-iam-root.v3 .ab-in-app-message .ab-message-button:hover{opacity:.8}.ab-centering-div .ab-in-app-message .ab-message-button:active:after,.ab-iam-root.v3 .ab-in-app-message .ab-message-button:active:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.08)}.ab-centering-div .ab-in-app-message .ab-message-button:focus:after,.ab-iam-root.v3 .ab-in-app-message .ab-message-button:focus:after{content:'';position:absolute;top:0;left:0;width:100%;height:100%;background-color:rgba(0,0,0,.15)}.ab-centering-div .ab-in-app-message .ab-message-button a,.ab-iam-root.v3 .ab-in-app-message .ab-message-button a{color:inherit;text-decoration:inherit}.ab-centering-div .ab-in-app-message img,.ab-iam-root.v3 .ab-in-app-message img{display:inline-block}.ab-centering-div .ab-in-app-message .ab-icon,.ab-iam-root.v3 .ab-in-app-message .ab-icon{display:inline-block;padding:10px;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px}.ab-centering-div .ab-in-app-message .ab-icon .fa,.ab-iam-root.v3 .ab-in-app-message .ab-icon .fa{font-size:30px;width:30px}.ab-centering-div .ab-start-hidden,.ab-iam-root.v3 .ab-start-hidden{visibility:hidden}.ab-centering-div .ab-centered,.ab-centering-div.ab-centering-div .ab-modal,.ab-iam-root.v3 .ab-centered,.ab-iam-root.v3.ab-centering-div .ab-modal{margin:auto;position:absolute;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.ab-email-capture,.ab-iam-root.v3{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.ab-email-capture .ab-page-blocker,.ab-iam-root.v3 .ab-page-blocker{position:fixed;top:0;left:0;width:100%;height:100%;z-index:1040;pointer-events:all;background-color:rgba(51,51,51,.75)}.ab-email-capture .ab-in-app-message.ab-modal .ab-email-capture-input{margin-bottom:30px}.ab-email-capture .ab-in-app-message.ab-modal .ab-message-buttons~.ab-message-text{max-height:541px;margin-bottom:160px}.ab-email-capture .ab-in-app-message.ab-modal .ab-message-buttons~.ab-message-text.with-explanatory-link{max-height:513px;margin-bottom:188px}.ab-email-capture .ab-in-app-message.ab-modal .ab-image-area~.ab-message-text{max-height:385.82758621px}.ab-email-capture .ab-in-app-message.ab-modal .ab-image-area~.ab-message-text.with-explanatory-link{max-height:357.82758621px}.ab-email-capture .ab-in-app-message.ab-modal .ab-email-validation-error{margin-top:62px}.ab-email-capture .ab-in-app-message.ab-modal .ab-explanatory-link{display:block}.ab-email-capture .ab-in-app-message.ab-modal .ab-background,.ab-email-capture .ab-in-app-message.ab-modal .ab-mask{position:absolute;top:0;right:0;bottom:0;left:0;z-index:-1}.ab-email-capture .ab-in-app-message.ab-modal .ab-html-close-button{right:3px;top:-1px;font-size:34px;padding-top:0}@media (max-width:600px){.ab-iam-root.v3 .ab-in-app-message.ab-slideup{max-height:66px;margin:10px;margin-top:calc(constant(safe-area-inset-top,0) + 10px);margin-right:calc(constant(safe-area-inset-right,0) + 10px);margin-bottom:calc(constant(safe-area-inset-bottom,0) + 10px);margin-left:calc(constant(safe-area-inset-left,0) + 10px);margin-top:calc(env(safe-area-inset-top,0) + 10px);margin-right:calc(env(safe-area-inset-right,0) + 10px);margin-bottom:calc(env(safe-area-inset-bottom,0) + 10px);margin-left:calc(env(safe-area-inset-left,0) + 10px);max-width:90%;max-width:calc(100% - 40px);min-width:90%;min-width:calc(100% - 40px)}.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-close-button{display:none}.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-close-button svg:not(.ab-chevron){display:none}.ab-iam-root.v3 .ab-in-app-message.ab-slideup.ab-clickable .ab-close-button{display:block;height:20px;padding:0 20px 0 18px;pointer-events:none;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);width:12px}.ab-iam-root.v3 .ab-in-app-message.ab-slideup.ab-clickable .ab-close-button svg.ab-chevron{display:inline}.ab-iam-root.v3 .ab-in-app-message.ab-slideup.ab-clickable .ab-message-text{border-right-width:40px}.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-message-text{max-width:100%;border-right-width:10px}.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-message-text span{max-height:66px}.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-message-text.ab-with-icon,.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-message-text.ab-with-image{max-width:80%;max-width:calc(100% - 50px - 5px - 10px - 25px)}.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-image-area{width:50px}.ab-iam-root.v3 .ab-in-app-message.ab-slideup .ab-image-area img{max-width:50px;max-height:50px;width:auto}.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen,.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen.landscape{-webkit-transition:top none;-moz-transition:top none;-o-transition:top none;transition:top none;top:0;right:0;bottom:0;left:0;height:100%;width:100%;max-height:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-transform:none;-moz-transform:none;-ms-transform:none;transform:none;height:auto!important}.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen .ab-image-area,.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen.landscape .ab-image-area,.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen.landscape.landscape .ab-image-area{height:50%}.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen .ab-message-text.ab-with-buttons,.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen.landscape .ab-message-text.ab-with-buttons{margin-bottom:20px;margin-bottom:calc(constant(safe-area-inset-bottom,0) + 20px);margin-bottom:calc(env(safe-area-inset-bottom,0) + 20px);max-height:30%;max-height:calc(50% - 93px - 20px);max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px - env(safe-area-inset-bottom,0))}.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen.landscape .ab-message-text.ab-with-buttons,.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen.landscape.landscape .ab-message-text.ab-with-buttons{max-height:20%;max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0) - env(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px);max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px - env(safe-area-inset-bottom,0))}.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen.landscape:not(.graphic) .ab-message-buttons,.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen:not(.graphic) .ab-message-buttons{padding-top:0;position:relative}.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen.graphic,.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen.landscape.graphic{display:block}.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen.graphic .ab-image-area,.ab-iam-root.v3 .ab-in-app-message:not(.force-desktop).ab-fullscreen.landscape.graphic .ab-image-area{height:100%}}@media (max-width:480px){.ab-email-capture .ab-in-app-message.ab-modal,.ab-iam-root.v3 .ab-in-app-message.ab-modal{max-width:91%;max-width:calc(100% - 30px)}.ab-email-capture .ab-in-app-message.ab-modal.graphic .ab-image-area img,.ab-iam-root.v3 .ab-in-app-message.ab-modal.graphic .ab-image-area img{max-width:91vw;max-width:calc(100vw - 30px)}}@media (max-height:750px){.ab-email-capture .ab-in-app-message.ab-modal,.ab-iam-root.v3 .ab-in-app-message.ab-modal{max-height:91%;max-height:calc(100% - 30px)}.ab-email-capture .ab-in-app-message.ab-modal.graphic .ab-image-area img,.ab-iam-root.v3 .ab-in-app-message.ab-modal.graphic .ab-image-area img{max-height:91vh;max-height:calc(100vh - 30px)}.ab-email-capture .ab-in-app-message.ab-modal .ab-message-text,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-message-text{max-height:65vh;max-height:calc(100vh - 30px - 60px)}.ab-email-capture .ab-in-app-message.ab-modal .ab-message-text.ab-with-image,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-message-text.ab-with-image{max-height:45vh;max-height:calc(100vh - 30px - 155.17241379310346px - 40px)}.ab-email-capture .ab-in-app-message.ab-modal .ab-message-text.ab-with-icon,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-message-text.ab-with-icon{max-height:45vh;max-height:calc(100vh - 30px - 70px - 40px)}.ab-email-capture .ab-in-app-message.ab-modal .ab-message-text.ab-with-buttons,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-message-text.ab-with-buttons{max-height:50vh;max-height:calc(100vh - 30px - 93px - 40px)}.ab-email-capture .ab-in-app-message.ab-modal .ab-message-text.ab-with-buttons.ab-with-image,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-message-text.ab-with-buttons.ab-with-image{max-height:30vh;max-height:calc(100vh - 30px - 155.17241379310346px - 93px - 20px)}.ab-email-capture .ab-in-app-message.ab-modal .ab-message-text.ab-with-buttons.ab-with-icon,.ab-iam-root.v3 .ab-in-app-message.ab-modal .ab-message-text.ab-with-buttons.ab-with-icon{max-height:30vh;max-height:calc(100vh - 30px - 70px - 93px - 20px)}}@media (min-width:601px){.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen .ab-image-area img{max-height:100%;max-width:100%}}@media (max-height:750px) and (min-width:601px){.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen:not(.landscape):not(.force-desktop){-webkit-transition:top none;-moz-transition:top none;-o-transition:top none;transition:top none;top:0;right:0;bottom:0;left:0;height:100%;width:100%;max-height:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-transform:none;-moz-transform:none;-ms-transform:none;transform:none;height:auto!important;width:450px}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen:not(.landscape):not(.force-desktop) .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen:not(.landscape):not(.force-desktop).landscape .ab-image-area{height:50%}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen:not(.landscape):not(.force-desktop) .ab-message-text.ab-with-buttons{margin-bottom:20px;margin-bottom:calc(constant(safe-area-inset-bottom,0) + 20px);margin-bottom:calc(env(safe-area-inset-bottom,0) + 20px);max-height:30%;max-height:calc(50% - 93px - 20px);max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px - env(safe-area-inset-bottom,0))}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen:not(.landscape):not(.force-desktop).landscape .ab-message-text.ab-with-buttons{max-height:20%;max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0) - env(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px);max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px - env(safe-area-inset-bottom,0))}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen:not(.landscape):not(.force-desktop):not(.graphic) .ab-message-buttons{padding-top:0;position:relative}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen:not(.landscape):not(.force-desktop).graphic{display:block}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen:not(.landscape):not(.force-desktop).graphic .ab-image-area{height:100%}}@media (max-height:480px){.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop){-webkit-transition:top none;-moz-transition:top none;-o-transition:top none;transition:top none;top:0;right:0;bottom:0;left:0;height:100%;width:100%;max-height:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-transform:none;-moz-transform:none;-ms-transform:none;transform:none;height:auto!important}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop) .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop).landscape .ab-image-area{height:50%}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop) .ab-message-text.ab-with-buttons{margin-bottom:20px;margin-bottom:calc(constant(safe-area-inset-bottom,0) + 20px);margin-bottom:calc(env(safe-area-inset-bottom,0) + 20px);max-height:30%;max-height:calc(50% - 93px - 20px);max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px - env(safe-area-inset-bottom,0))}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop).landscape .ab-message-text.ab-with-buttons{max-height:20%;max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0) - env(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px);max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px - env(safe-area-inset-bottom,0))}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop):not(.graphic) .ab-message-buttons{padding-top:0;position:relative}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop).graphic{display:block}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop).graphic .ab-image-area{height:100%}}@media (max-width:750px){.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop){-webkit-transition:top none;-moz-transition:top none;-o-transition:top none;transition:top none;top:0;right:0;bottom:0;left:0;height:100%;width:100%;max-height:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;-webkit-transform:none;-moz-transform:none;-ms-transform:none;transform:none;height:auto!important}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop) .ab-image-area,.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop).landscape .ab-image-area{height:50%}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop) .ab-message-text.ab-with-buttons{margin-bottom:20px;margin-bottom:calc(constant(safe-area-inset-bottom,0) + 20px);margin-bottom:calc(env(safe-area-inset-bottom,0) + 20px);max-height:30%;max-height:calc(50% - 93px - 20px);max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px - env(safe-area-inset-bottom,0))}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop).landscape .ab-message-text.ab-with-buttons{max-height:20%;max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0) - env(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px);max-height:calc(50% - 93px - 20px - constant(safe-area-inset-bottom,0));max-height:calc(50% - 93px - 20px - env(safe-area-inset-bottom,0))}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop):not(.graphic) .ab-message-buttons{padding-top:0;position:relative}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop).graphic{display:block}.ab-iam-root.v3 .ab-in-app-message.ab-fullscreen.landscape:not(.force-desktop).graphic .ab-image-area{height:100%}}body>.ab-feed{position:fixed;top:0;right:0;bottom:0;width:421px;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}body>.ab-feed .ab-feed-body{position:absolute;top:0;left:0;right:0;border:none;border-left:1px solid #d0d0d0;padding-top:58px;min-height:100%}body>.ab-feed .ab-no-cards-message{position:absolute;width:100%;margin-left:-20px;top:40%}.ab-feed{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-box-shadow:0 1px 7px 1px rgba(66,82,113,.15);-moz-box-shadow:0 1px 7px 1px rgba(66,82,113,.15);box-shadow:0 1px 7px 1px rgba(66,82,113,.15);width:402px;background-color:#eee;font-family:'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;font-size:13px;line-height:130%;letter-spacing:normal;overflow-y:auto;overflow-x:visible;-webkit-overflow-scrolling:touch;-webkit-transition:opacity .25s;-moz-transition:opacity .25s;-o-transition:opacity .25s;transition:opacity .25s}.ab-feed .ab-feed-body{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;border:1px solid #d0d0d0;border-top:none;padding:20px 20px 0 20px}.ab-feed.ab-show{-webkit-animation-name:animSlideIn;animation-name:animSlideIn;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.ab-feed.ab-hide{opacity:0;-webkit-animation-name:animSlideOut;animation-name:animSlideOut;-webkit-animation-duration:.25s;animation-duration:.25s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.ab-feed .ab-card{position:relative;-webkit-box-shadow:0 2px 3px 0 rgba(178,178,178,.5);-moz-box-shadow:0 2px 3px 0 rgba(178,178,178,.5);box-shadow:0 2px 3px 0 rgba(178,178,178,.5);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;width:100%;border:1px solid #d0d0d0;margin-bottom:20px;overflow:hidden;background-color:#fff}.ab-feed .ab-card .ab-pinned-indicator{position:absolute;right:0;top:0;margin-right:-1px;width:0;height:0;border-style:solid;border-width:0 24px 24px 0;border-color:transparent #1676d0 transparent transparent}.ab-feed .ab-card .ab-pinned-indicator .fa-star{position:absolute;right:-21px;top:2px;font-size:9px;color:#fff}.ab-feed .ab-card.ab-hide{-webkit-animation-name:animSlideLeft;animation-name:animSlideLeft;-webkit-animation-duration:.25s;animation-duration:.25s;-webkit-animation-timing-function:linear;animation-timing-function:linear}.ab-feed .ab-card .ab-close-button{display:block;cursor:pointer;position:absolute;z-index:1060;top:0;right:0;padding-top:10px;padding-right:10px;padding-left:6.66666667px;padding-bottom:6.66666667px;font-size:20px;width:20px;height:20px;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;background-repeat:no-repeat;background-origin:content-box;background-size:20px;text-align:center;visibility:hidden;opacity:0;-webkit-transition:.5s;-moz-transition:.5s;-o-transition:.5s;transition:.5s}.ab-feed .ab-card .ab-close-button .fa{line-height:20px}.ab-feed .ab-card:hover .ab-close-button{visibility:visible;opacity:1}.ab-feed .ab-card a{color:inherit;text-decoration:none}.ab-feed .ab-card a:hover{text-decoration:underline}.ab-feed .ab-card .ab-image-area{display:inline-block;vertical-align:top;line-height:0;overflow:hidden;width:100%;-webkit-box-sizing:initial;-moz-box-sizing:initial;box-sizing:initial}.ab-feed .ab-card .ab-image-area img{height:auto;width:100%}.ab-feed .ab-card.ab-banner .ab-card-body{display:none}.ab-feed .ab-card .ab-card-body{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;display:inline-block;width:100%;position:relative}.ab-feed .ab-card .ab-unread-indicator{position:absolute;bottom:0;margin-right:-1px;width:100%;height:5px;background-color:#1676d0}.ab-feed .ab-card .ab-unread-indicator.read{background-color:transparent}.ab-feed .ab-card .ab-title{overflow:hidden;word-wrap:break-word;text-overflow:ellipsis;font-size:18px;line-height:130%;font-family:'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif;font-weight:700;padding:20px 25px 0 25px}.ab-feed .ab-card .ab-description{color:#545454;padding:15px 25px 20px 25px;word-wrap:break-word;white-space:pre-wrap}.ab-feed .ab-card .ab-url-area{color:#1676d0;margin-top:12px;font-family:'Helvetica Neue Light','Helvetica Neue',Helvetica,Arial,'Lucida Grande',sans-serif}.ab-feed .ab-card.ab-classic-card .ab-card-body{min-height:95px;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}.ab-feed .ab-card.ab-classic-card.with-image .ab-card-body{min-height:100px;padding-left:72px}.ab-feed .ab-card.ab-classic-card.with-image .ab-image-area{width:60px;height:60px;padding:25px 0 25px 25px;position:absolute}.ab-feed .ab-card.ab-classic-card.with-image .ab-image-area img{-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;width:60px;height:60px}.ab-feed .ab-card.ab-classic-card.with-image .ab-title{background-color:transparent;font-size:16px}.ab-feed .ab-card.ab-classic-card.with-image .ab-description{padding-top:10px}.ab-feed .ab-card.ab-control-card{height:0;width:0;margin:0;border:0}.ab-feed .ab-feed-buttons-wrapper{position:relative;background-color:#282828;height:38px;-webkit-box-shadow:0 2px 3px 0 rgba(178,178,178,.5);-moz-box-shadow:0 2px 3px 0 rgba(178,178,178,.5);box-shadow:0 2px 3px 0 rgba(178,178,178,.5);z-index:1}.ab-feed .ab-feed-buttons-wrapper:focus{outline:0}.ab-feed .ab-feed-buttons-wrapper .ab-close-button,.ab-feed .ab-feed-buttons-wrapper .ab-refresh-button{cursor:pointer;color:#fff;font-size:18px;margin:10px;-webkit-transition:.2s;-moz-transition:.2s;-o-transition:.2s;transition:.2s}.ab-feed .ab-feed-buttons-wrapper .ab-close-button:hover,.ab-feed .ab-feed-buttons-wrapper .ab-refresh-button:hover{font-size:22px}.ab-feed .ab-feed-buttons-wrapper .ab-close-button{float:right;margin-top:9px}.ab-feed .ab-feed-buttons-wrapper .ab-close-button:hover{margin-top:6px;margin-right:9px}.ab-feed .ab-feed-buttons-wrapper .ab-refresh-button{margin-left:12px}.ab-feed .ab-feed-buttons-wrapper .ab-refresh-button:hover{margin-top:8px;margin-left:10px}.ab-feed .ab-no-cards-message{text-align:center;margin-bottom:20px}@media (max-width:600px){body>.ab-feed{width:100%;-webkit-transition:.25s;-moz-transition:.25s;-o-transition:.25s;transition:.25s}body>.ab-feed.ab-show{-webkit-animation-name:slideUp;animation-name:slideUp;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-timing-function:linear;animation-timing-function:linear}body>.ab-feed.ab-hide{-webkit-animation-name:none;animation-name:none;-webkit-animation-duration:0;animation-duration:0;-webkit-animation-timing-function:linear;animation-timing-function:linear;top:100%;opacity:.5}}</style><style>[_nghost-let-c6] {
+      align-items: center;
+      display: flex;
+      text-transform: uppercase;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    }
+    span[_ngcontent-let-c6] {
+      color: #FF9800;
+      font-size: 13px;
+      font-weight: 600;
+      line-height: 17px;
+    }
+    .soundtrap-icon[_ngcontent-let-c6] {
+      font-size: 11px;
+      margin-right: 3px;
+    }
+    .upgrade[_ngcontent-let-c6] {
+      height: 22px;
+      line-height: 22px;
+      text-shadow: none;
+      padding: 0 12px;
+      margin-left: 10px;
+      min-width: auto;
+    }
+    .upgrade-wrapper[_ngcontent-let-c6] {
+      display: flex;
+      justify-content: center;
+      position: relative;
+    }
+    .upgrade-wrapper[_ngcontent-let-c6]:hover   st-tooltip[_ngcontent-let-c6] {
+      opacity: 1;
+      transition: all 0.1s ease;
+      transform: scale(1);
+    }
+    st-tooltip[_ngcontent-let-c6] {
+      color: white;
+      display: block;
+      text-transform: none;
+    }
+    st-tooltip[_ngcontent-let-c6]   span[_ngcontent-let-c6] {
+      color: white;
+    }</style><style>[_nghost-let-c7] {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .wrapper[_ngcontent-let-c7] {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      padding-right: 10px;
+    }
+    .wrapper[_ngcontent-let-c7]:last-child {
+      padding-right: 0;
+    }
+    .wrapper[_ngcontent-let-c7]:hover   st-tooltip[_ngcontent-let-c7] {
+      opacity: 1;
+      transition: all 0.1s ease;
+      transform: scale(1);
+    }
+    .trophy-image[_ngcontent-let-c7]   img[_ngcontent-let-c7] {
+      width: 26px;
+      height: 26px;
+    }</style><script src="./quade.maiello4_files/f(1).txt"></script><style>[_nghost-let-c14] {
+      
+      background-color: #ffffff;
+      border-radius: 6px;
+      margin-bottom: 40px;
+      border: solid 1px #E6E6E6;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .header[_ngcontent-let-c14] {
+      background-color: #ffffff;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      box-shadow: 0 1px 0 0 #E6E6E6;
+      display: flex;
+      flex: 1;
+      align-items: center;
+      min-height: 69px;
+      position: relative;
+      z-index: 10;
+      cursor: pointer;
+    }
+    .folder-icon[_ngcontent-let-c14] {
+      order: 0;
+      flex: 0 1 auto;
+      align-self: auto;
+      margin: 0 20px;
+      line-height: 39px;
+      vertical-align: top;
+      width: 22px;
+    }
+    .folder-icon[_ngcontent-let-c14]   i[_ngcontent-let-c14] {
+      font-size: 20px;
+      color: #646464;
+      line-height: 43px;
+      transition: color 0.2s ease;
+      display: flex;
+      align-items: center;
+    }
+    .folder-icon[_ngcontent-let-c14]   .ic-folder-open[_ngcontent-let-c14] {
+      font-size: 22px;
+    }
+    .title[_ngcontent-let-c14] {
+      order: 1;
+      flex: 1 1 auto;
+      align-self: auto;
+    }
+    .title[_ngcontent-let-c14]   h2[_ngcontent-let-c14] {
+      margin: 0 0 4px;
+      line-height: 17px;
+      transition: margin 0.3s 0.1s ease;
+      position: relative;
+      z-index: 10;
+      cursor: pointer;
+      display: inline-block;
+      pointer-events: none;
+    }
+    .title.allowRename[_ngcontent-let-c14]   h2[_ngcontent-let-c14] {
+      pointer-events: all;
+    }
+    .title[_ngcontent-let-c14]   h2[_ngcontent-let-c14]   i[_ngcontent-let-c14] {
+      opacity: 0;
+      font-size: 15px;
+      transition: opacity 0.1s ease;
+    }
+    .title.allowRename[_ngcontent-let-c14]   h2[_ngcontent-let-c14]:hover   i[_ngcontent-let-c14] {
+      opacity: 1;
+    }
+    .title.allowRename[_ngcontent-let-c14]   h2[_ngcontent-let-c14]:hover {
+      color: #000000;
+    }
+    .title[_ngcontent-let-c14]   p[_ngcontent-let-c14] {
+      margin: 0;
+      vertical-align: top;
+      transition: opacity 0.3s ease;
+    }
+    .folder-menu[_ngcontent-let-c14] {
+      order: 2;
+      flex: 0 0 auto;
+      align-self: auto;
+      user-select: none;
+      transition: 0.2s transform ease;
+      position: relative;
+      white-space: nowrap;
+    }
+    .folder-menu[_ngcontent-let-c14]    > a[_ngcontent-let-c14] {
+      display: inline-flex;
+      line-height: 18px;
+      outline: none;
+      align-items: center;
+    }
+    .folder-menu[_ngcontent-let-c14]   a[_ngcontent-let-c14]:hover   i[_ngcontent-let-c14] {
+      color: #9B9B9B;
+    }
+    .folder-menu[_ngcontent-let-c14]   a[_ngcontent-let-c14]:active   i[_ngcontent-let-c14] {
+      color: #646464;
+      transition: none;
+    }
+    .folder-menu[_ngcontent-let-c14]   i[_ngcontent-let-c14] {
+      font-size: 20px;
+      color: #D2D2D2;
+      transition: color 0.1s;
+    }
+    .folder-menu-button[_ngcontent-let-c14] {
+      padding: 20px 10px;
+      text-decoration: none;
+    }
+    .folder-menu-button[_ngcontent-let-c14]:last-child {
+      padding-right: 20px;
+    }
+    .folder-menu-button[_ngcontent-let-c14]   .ic-chevron-down[_ngcontent-let-c14] {
+      font-size: 17px;
+      top: -1px;
+      position: relative;
+    }
+
+    .content[_ngcontent-let-c14]::-webkit-scrollbar {
+      width: 9px;
+      height: 9px;
+    }
+    .content[_ngcontent-let-c14]::-webkit-scrollbar-button {
+      width: 0px;
+      height: 0px;
+    }
+    .content[_ngcontent-let-c14]::-webkit-scrollbar-thumb {
+      background: #D2D2D2;
+      border: 0px none #ffffff;
+      border-radius: 50px;
+    }
+    .content[_ngcontent-let-c14]::-webkit-scrollbar-thumb:hover {
+      background: #5A00AA;
+    }
+    .content[_ngcontent-let-c14]::-webkit-scrollbar-thumb:active {
+      background: #4e369b;
+    }
+    .content[_ngcontent-let-c14]::-webkit-scrollbar-track {
+      background: #ffffff;
+      border: 0px none #ffffff;
+      border-radius: 0px;
+      padding: 1px;
+    }
+    .content[_ngcontent-let-c14]::-webkit-scrollbar-track:hover {
+      background: #fdfdfd;
+    }
+    .content[_ngcontent-let-c14]::-webkit-scrollbar-track:active {
+      background: #ffffff;
+    }
+    .content[_ngcontent-let-c14]::-webkit-scrollbar-corner {
+      background: transparent;
+    }
+    st-project[_ngcontent-let-c14] {
+      border-top: 1px solid #E6E6E6;
+    }
+
+    .view-all-btn[_ngcontent-let-c14] {
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      margin-left: -35px;
+      z-index: 100;
+    }</style><style>[_nghost-let-c18], virtual-scroll[_ngcontent-let-c18] {
+      display: block;
+    }
+
+    st-project[_ngcontent-let-c18], st-project-skeleton[_ngcontent-let-c18]  {
+      border-bottom: 1px solid #E6E6E6;
+    }
+    st-project[_ngcontent-let-c18] {
+      height: 120px;
+    }
+    st-project[_ngcontent-let-c18]:last-child, st-project-skeleton[_ngcontent-let-c18]:last-child {
+      border-bottom: none;
+      box-shadow: 0 1px 0 0 #E6E6E6;
+    }</style><style>[_nghost-let-c19] {
+      overflow: hidden;
+      position: relative;
+	  display: block;
+      -webkit-overflow-scrolling: touch;
+    }
+    .scrollable-content[_ngcontent-let-c19] {
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+    }
+    .total-padding[_ngcontent-let-c19] {
+      width: 1px;
+      opacity: 0;
+    }</style><style>[_nghost-let-c17] {
+      overflow: hidden;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      background: transparent;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+      background: url(/public/images/folders/empty_folder_illustration_desktop@1x.png) no-repeat center center;
+    }
+    .inner-content[_ngcontent-let-c17] {
+      transition: opacity 0.4s 0.1s ease, margin 0.4s ease;
+      flex: 1 1 auto;
+      align-self: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+    }
+    .content[_ngcontent-let-c17] {
+      margin: 55px 0;
+      max-width: 400px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+    }
+    .content[_ngcontent-let-c17]   p[_ngcontent-let-c17] {
+      margin-bottom: 12px;
+    }
+    .app-icon-wrapper[_ngcontent-let-c17] {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      max-width: 360px;
+      flex-wrap: wrap;
+    }
+    .app-icon-wrapper[_ngcontent-let-c17]   .icon[_ngcontent-let-c17] {
+      text-align: center;
+      margin-right: 20px;
+    }
+     .app-icon-wrapper[_ngcontent-let-c17]   i[_ngcontent-let-c17] {
+      font-size: 57px;
+      color: #D2D2D2;
+    }
+    .app-icon-wrapper[_ngcontent-let-c17]   .app[_ngcontent-let-c17]   img[_ngcontent-let-c17] {
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+      border: solid 1px #D2D2D2;
+      border-radius: 15px;
+      width: 65px;
+    }
+    .app-icon-wrapper[_ngcontent-let-c17]   .app-icon-desc[_ngcontent-let-c17] {
+      max-width: 270px;
+    }
+    .store-icons[_ngcontent-let-c17] {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .store-icons[_ngcontent-let-c17]   img[_ngcontent-let-c17] {
+      max-width: 200px;
+    }
+    .ios-icon[_ngcontent-let-c17]   img[_ngcontent-let-c17] {
+      width: 200px;
+      padding: 10px;
+    }
+    .ic-instrument-piano[_ngcontent-let-c17] {
+      font-size: 44px;
+      line-height: 35px;
+    }</style><style type="text/css" id="ki-gxg-glo"></style><style type="text/css" id="ki-gxg-gv6"></style></head>
+
+  <body class="private-profile os-windows pl-computer" translate-cloak="" ng-class="{ &#39;user-password-change&#39;: userNeedsPasswordChange }" style="">
+      <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MDXQVRL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+              
+  <script type="text/javascript">
+      window.zESettings = {
+          webWidget: {
+              offset: { horizontal: '0px', vertical: '0px' }, // vertical -4px
+              color: { theme: '#c8cad0' }
+          }
+      };
+  </script>
+  <iframe src="javascript:false" title="" style="display: none;" src="./quade.maiello4_files/saved_resource.html"></iframe><script>/*<![CDATA[*/window.zEmbed||function(e,t){var n,o,d,i,s,a=[],r=document.createElement("iframe");window.zEmbed=function(){a.push(arguments)},window.zE=window.zE||window.zEmbed,r.src="javascript:false",r.title="",r.role="presentation",(r.frameElement||r).style.cssText="display: none",d=document.getElementsByTagName("script"),d=d[d.length-1],d.parentNode.insertBefore(r,d),i=r.contentWindow,s=i.document;try{o=s}catch(e){n=document.domain,r.src='javascript:var d=document.open();d.domain="'+n+'";void(0);',o=s}o.open()._l=function(){var o=this.createElement("script");n&&(this.domain=n),o.id="js-iframe-async",o.src=e,this.t=+new Date,this.zendeskHost=t,this.zEQueue=a,this.body.appendChild(o)},o.write('<body onload="document._l();">'),o.close()}("https://assets.zendesk.com/embeddable_framework/main.js","soundtrap.zendesk.com");/*]]>*/</script>
+  <script type="text/javascript">
+
+      zE(function() {
+          zE.identify({
+              name: 'quade.maiello4',
+              email: 'quade.maiello@cwcmarvista.org',
+          });
+          zE.setLocale('en')
+      });
+  </script>
+<script type="text/javascript" id="qulr">
+  var _kiq = _kiq || [];
+  (function(){
+    setTimeout(function(){
+      var d = document, f = d.getElementsByTagName('script')[0], s = d.createElement('script'); s.type = 'text/javascript';
+      s.async = true; s.src = '//s3.amazonaws.com/ki.js/52184/b9R.js'; f.parentNode.insertBefore(s, f);
+    }, 1);
+  })();
+        _kiq.push(['identify', "21580220"]);
+    _kiq.push(['set', {
+      'at_least_5_logins' : 'true',
+      'at_least_3_logins' : 'true',
+      'months' : 0,
+      'locale' : "en",
+      'teacher' : false,
+      'plan' : "free",
+      'at_least_6_concurrent' : 'false'
+    }]);
+    _kiq.push(['eventHandler', 'show', function(){
+      // Execute the following function when the survey has appeared
+
+      if (ST.util.localStorage) {
+        var key = 'qualarooShown';
+        var now = new Date() / 1000;
+        var day = 86400;
+        var lastShown = ST.util.localStorage.get(key);
+        if (lastShown) {
+          var diff = now - Number(lastShown);
+          if (diff > day) {
+            ST.util.localStorage.set(key, now);
+          } else {
+            // Minimize the survey when in 'cooldown' mode
+            if (this.survey && this.survey.view && this.survey.view.minimize) {
+              this.survey.view.minimize(true);
+              _kiq.push(['minimizeNudge']);
+            }
+          }
+        } else {
+          ST.util.localStorage.set(key, now);
+        }
+      }
+    }]);
+            _kiq.push(['eventHandler', 'show', function(){
+      if (window.zE) {
+        window.zE.hide();
+      }
+    }]);
+    _kiq.push(['eventHandler', 'close', function(){
+      if (window.zE) {
+        window.zE.show();
+      }
+    }]);
+    </script>
+              <div id="fb-root"></div>
+
+                          <form action="https://www.soundtrap.com/logout" method="post" accept-charset="utf-8" enctype="application/x-www-form-urlencoded" id="logout_form" class="ng-pristine ng-valid">
+<input type="hidden" name="authenticityToken" value="bd32194d0b825ff26096ecc2c8425eb7a8974509">
+
+</form>
+<nav class="navbar navbar-fixed-top navbar-default topnav new ng-scope" role="navigation" ng-controller="NavigationCtrl as navigation">
+    <div class="container supernav">
+        <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" ng-click="navbarCollapsed = !navbarCollapsed" ng-init="navbarCollapsed=true;"><span class="sr-only ng-scope" translate="tags.navigation.sr.toggle" translate-default="Toggle navigation">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+            <!-- ngIf: !CurrentUser.loggedIn -->
+                    <a class="navbar-brand" ng-show="CurrentUser.loggedIn" ng-href="/quade.maiello4" href="https://www.soundtrap.com/quade.maiello4"><div class="minilogo"></div></a>
+                            <a class="navbar-brand ng-hide" ng-show="!CurrentUser.loggedIn" href="https://www.soundtrap.com/"><div class="minilogo"></div></a>
+                </div>
+
+        <!-- ngIf: !CurrentUser.loggedIn && !CurrentUser.hasFeature('podcastsReleased') -->
+
+        <!-- ngIf: !CurrentUser.loggedIn && CurrentUser.hasFeature('podcastsReleased') -->
+
+                        <div class="collapse navbar-collapse" ng-class="{in:!navbarCollapsed}">
+            <ul class="nav navbar-nav navbar-right">
+                                        <li class="hidden-xs">
+                        <a class="minime" ng-href="/quade.maiello4" title="Profile" original-title-value="Profile" no-translate="" href="https://www.soundtrap.com/quade.maiello4">
+                            <member-avatar class="avatar ng-isolate-scope" img="https://www.soundtrap.com/public/images/avatar-placeholder-blue.svg" member="CurrentUser">
+        <div class="avatar-wrapper">
+          <!-- ngIf: !avatarController.isEDUPlaceholder --><img ng-if="!avatarController.isEDUPlaceholder" ng-src="https://www.soundtrap.com/public/images/avatar-placeholder-blue.svg" alt="quade.maiello4" class="ng-scope" src="./quade.maiello4_files/avatar-placeholder-blue.svg"><!-- end ngIf: !avatarController.isEDUPlaceholder -->
+          <!-- ngIf: avatarController.isEDUPlaceholder -->
+          <div ng-transclude=""></div>
+        </div>
+      </member-avatar>
+                            <span class="myname">
+                <span class="first ng-binding">quade.maiello4</span> <span class="last ng-binding"></span>
+              </span>
+                        </a>
+                    </li>
+                  <!-- ngIf: CurrentUser.loggedIn && (!CurrentUser.educational || CurrentUser.eaaMessaging) --><li class="hidden-xs ng-scope" ng-if="CurrentUser.loggedIn &amp;&amp; (!CurrentUser.educational || CurrentUser.eaaMessaging)" ng-controller="UnreadMessageCounter" ng-init="numUnread = status.numUnread"><a class="messages ng-scope" href="https://www.soundtrap.com/messages" title="Messages" translate="" translate-attr-title="tags.navigation.messages" translate-values="{unreadCount: numUnread}" original-title-value="&#39;You have &#39; + status.numUnread + &#39; unread messages&#39;, Messages" no-translate=""><span><span class="glyphicons glyphicons-envelope"></span><!-- ngIf: status.numUnread --></span></a></li><!-- end ngIf: CurrentUser.loggedIn && (!CurrentUser.educational || CurrentUser.eaaMessaging) -->
+                    <li class="hidden-xs dropdown">
+                        <a href="https://www.soundtrap.com/" class="dropdown-toggle settings-icon" data-toggle="dropdown" ng-hide="CurrentUser.ltiTaskLaunch"><span class="glyphicon glyphicon-cog"></span></a>
+                        <ul class="dropdown-menu user-dropdown-menu">
+                            <!-- ngIf: !CurrentUser.educational && (CurrentUser.hasTrial || CurrentUser.tierName == 'free') --><li ng-if="!CurrentUser.educational &amp;&amp; (CurrentUser.hasTrial || CurrentUser.tierName == &#39;free&#39;)" class="dropdown-menu-item ng-scope">
+                                <div class="upgrade-badge">
+    <!-- ngIf: ::CurrentUser.hasTrial -->
+    <!-- ngIf: ::CurrentUser.tierName == 'free' --><p ng-if="::CurrentUser.tierName == &#39;free&#39;" translate="tags.navigation.promote_plan" class="ng-scope">Get more loops and instruments.</p><!-- end ngIf: ::CurrentUser.tierName == 'free' -->
+    <a type="button" href="https://www.soundtrap.com/pricing" class="btn button_special_L upgrade-badge-btn ng-scope" translate="tags.navigation.upgrade">Upgrade</a>
+</div>
+                            </li><!-- end ngIf: !CurrentUser.educational && (CurrentUser.hasTrial || CurrentUser.tierName == 'free') -->
+                            <!-- ngIf: CurrentUser.hasFeature('home-beta') -->
+                            <!-- ngIf: (!CurrentUser.educational || CurrentUser.eaaMayEditProfileInfo) --><li ng-if="(!CurrentUser.educational || CurrentUser.eaaMayEditProfileInfo)" class="ng-scope">
+                                <a class="dropdown-menu-link ng-scope" href="https://www.soundtrap.com/editprofile/" translate="tags.navigation.edit" translate-default="Edit profile">Edit profile</a>
+                            </li><!-- end ngIf: (!CurrentUser.educational || CurrentUser.eaaMayEditProfileInfo) -->
+                            <!-- ngIf: !CurrentUser.educational --><li ng-if="!CurrentUser.educational" class="ng-scope">
+                                <a class="dropdown-menu-link ng-scope" href="https://www.soundtrap.com/subscription" translate="tags.navigation.subscription" translate-default="My subscription">My subscription</a>
+                            </li><!-- end ngIf: !CurrentUser.educational -->
+                            <li>
+                                <a class="dropdown-menu-link ng-scope" href="javascript:{}" onclick="document.getElementById(&#39;logout_form&#39;).submit();" translate="tags.navigation.logout" translate-default="Log out">Log out</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- ngIf: !CurrentUser.educational && (CurrentUser.hasTrial || CurrentUser.tierName == 'free') --><li ng-if="!CurrentUser.educational &amp;&amp; (CurrentUser.hasTrial || CurrentUser.tierName == &#39;free&#39;)" class="visible-xs ng-scope">
+                        <div class="upgrade-badge">
+    <!-- ngIf: ::CurrentUser.hasTrial -->
+    <!-- ngIf: ::CurrentUser.tierName == 'free' --><p ng-if="::CurrentUser.tierName == &#39;free&#39;" translate="tags.navigation.promote_plan" class="ng-scope">Get more loops and instruments.</p><!-- end ngIf: ::CurrentUser.tierName == 'free' -->
+    <a type="button" href="https://www.soundtrap.com/pricing" class="btn button_special_L upgrade-badge-btn ng-scope" translate="tags.navigation.upgrade">Upgrade</a>
+</div>
+                    </li><!-- end ngIf: !CurrentUser.educational && (CurrentUser.hasTrial || CurrentUser.tierName == 'free') -->
+                    <li class="visible-xs"><a href="https://www.soundtrap.com/messages" translate="tags.navigation.messages" translate-default="Messages" class="ng-scope">Messages</a></li>
+                    <!-- ngIf: (!CurrentUser.educational || CurrentUser.eaaMayEditProfileInfo) --><li class="visible-xs ng-scope" ng-if="(!CurrentUser.educational || CurrentUser.eaaMayEditProfileInfo)"><a href="https://www.soundtrap.com/editprofile/" translate="tags.navigation.edit" translate-default="Edit profile" class="ng-scope">Edit profile</a></li><!-- end ngIf: (!CurrentUser.educational || CurrentUser.eaaMayEditProfileInfo) -->
+                    <li class="visible-xs"><a href="https://www.soundtrap.com/subscription" translate="tags.navigation.subscription" translate-default="My subscription" class="ng-scope">My subscription</a></li>
+                    <li class="visible-xs">
+                        <a href="javascript:{}" onclick="document.getElementById(&#39;logout_form&#39;).submit();" translate="tags.navigation.logout" translate-default="Log out" class="ng-scope">Log out</a>
+                    </li>
+                                <!-- ngIf: !CurrentUser.loggedIn -->
+                <!-- ngIf: !CurrentUser.loggedIn -->
+                <!-- ngIf: !CurrentUser.loggedIn -->
+            </ul>
+                            <ul class="nav navbar-nav navbar-right hidden-sm">
+                    <li class="separator hidden-xs" style="margin-left: 15px;"></li>
+                </ul>
+                <!-- ngIf: CurrentUser.loggedIn && CurrentUser.walled -->
+                                        <ul class="nav navbar-nav navbar-right">
+                    <!-- ngIf: CurrentUser.loggedIn --><li ng-if="CurrentUser.loggedIn" class="hidden-xs ng-scope">
+                        <a href="https://www.soundtrap.com/studio/" translate="tags.navigation.studio" translate-default="Studio" class="ng-scope">Studio</a>
+                    </li><!-- end ngIf: CurrentUser.loggedIn -->
+                    <!-- ngIf: CurrentUser.loggedIn --><li ng-if="CurrentUser.loggedIn" class="separator hidden-xs ng-scope"></li><!-- end ngIf: CurrentUser.loggedIn -->
+                    <!-- ngIf: CurrentUser.loggedIn && !CurrentUser.walled --><li ng-if="CurrentUser.loggedIn &amp;&amp; !CurrentUser.walled" class="ng-scope"><a href="https://www.soundtrap.com/discover" translate="tags.navigation.discover" translate-default="Discover" class="ng-scope">Discover</a></li><!-- end ngIf: CurrentUser.loggedIn && !CurrentUser.walled -->
+                    <!-- ngIf: CurrentUser.loggedIn --><li ng-if="CurrentUser.loggedIn" class="separator hidden-xs ng-scope"></li><!-- end ngIf: CurrentUser.loggedIn -->
+                </ul>
+                    </div>
+        </div>
+</nav>
+          <div>
+                                      
+
+<div ng-controller="PrivateProfileCtrl as privateProfileCtrl" class="ng-scope">
+
+  <st-profile [active-tab]="privateProfileCtrl.tabs.activeTab" ng-version="8.2.14"><div class="profile-content-top ng-scope">
+      <!-- ngInclude: undefined --><ng-include src="&#39;/public/html/profile/privateProfileTopBanner.html&#39;" class="ng-scope"><!-- Attention Banner -->
+<div class="attention-banner ng-scope ng-hide" ng-show="!privateProfileCtrl.currentUser.externallyManaged &amp;&amp; privateProfileCtrl.currentUser.eaaPayments &amp;&amp; privateProfileCtrl.adminPanelMediator.eduSubscriptionExpiresSoon &amp;&amp; !privateProfileCtrl.shouldCloseExpiringEduSub">
+  <div class="container">
+    <div class="message">
+      <span translate="view.profile.attention_banner.subscription_expires_in" translate-value-daysleft="" class="ng-scope">Your current subscription will expire in  days.</span>
+      <span ng-show="privateProfileCtrl.adminPanelMediator.validSubscription.provider === &#39;recurly&#39;" class="ng-binding ng-hide">Renew to continue using Soundtrap for Education.</span>
+      <span ng-show="privateProfileCtrl.adminPanelMediator.validSubscription.provider !== &#39;recurly&#39;" class="ng-binding">Contact us to renew.</span>
+    </div>
+    <!-- ngIf: privateProfileCtrl.adminPanelMediator.validSubscription.provider === 'recurly' -->
+    <!-- ngIf: privateProfileCtrl.adminPanelMediator.validSubscription.provider !== 'recurly' --><div ng-if="privateProfileCtrl.adminPanelMediator.validSubscription.provider !== &#39;recurly&#39;" class="ng-scope">
+      <button type="button" class="btn button_GP_M_outl_inv pl-computer-visible ng-binding" ng-click="privateProfileCtrl.showContactSalesDialog(privateProfileCtrl.adminPanelMediator.validSubscription.seatsTotal)">CONTACT US</button>
+      <button type="button" class="btn button_GP_XL_outl_inv pl-computer-hidden ng-binding" ng-click="privateProfileCtrl.showContactSalesDialog(privateProfileCtrl.adminPanelMediator.validSubscription.seatsTotal)">CONTACT US</button>
+    </div><!-- end ngIf: privateProfileCtrl.adminPanelMediator.validSubscription.provider !== 'recurly' -->
+    <a href="https://www.soundtrap.com/" class="attention-banner-close-icon" ng-click="privateProfileCtrl.shouldCloseExpiringEduSub = true">×</a>
+  </div>
+</div>
+
+  <!-- Alert -->
+  <div class="alert alert-danger alert-dismissible ng-scope ng-hide" role="alert" ng-show="isDeprecatedBrowser">
+    <div class="container">
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">×</span>
+      </button>
+      <span class="glyphicon glyphicon-exclamation-sign"></span>
+      <span ng-bind-html="&#39;view.profile.ie11&#39; | translate" class="ng-binding"><strong>Your browser is not fully supported, so things might not work properly.</strong> We recommend you download <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48126" target="_blank">Edge</a> or <a href="https://www.google.com/chrome/browser/desktop/index.html" target="_blank">Chrome</a>.</span>
+    </div>
+  </div></ng-include>
+    </div><st-profile-banners _nghost-let-c0=""><!----><!----><!----><!----><!----><!----><!----><!----></st-profile-banners><st-profile-header _nghost-let-c1="" style="background-image: url(&quot;https://storage.googleapis.com/stpp/avatar/29.jpg&quot;);"><div _ngcontent-let-c1="" class="overlay"></div><!----><div _ngcontent-let-c1="" class="wrapper ng-star-inserted"><div _ngcontent-let-c1="" class="user-info-wrapper"><!----><!----><!----><div _ngcontent-let-c1="" class="profile-img-wrapper ng-star-inserted"><img _ngcontent-let-c1="" class="profile-img" src="./quade.maiello4_files/avatar-placeholder-blue.svg"><button _ngcontent-let-c1="" class="btn button_GP_S_inv btn-create-soundbite">+ Soundbite</button></div><!----><!----><div _ngcontent-let-c1="" class="user-info"><div _ngcontent-let-c1="" class="user-name-wrapper"><h1 _ngcontent-let-c1="" class="head-m">quade.maiello4 </h1><st-plan-badge _ngcontent-let-c1="" _nghost-let-c6=""><!----><!----><!----><span _ngcontent-let-c6="" class="ng-star-inserted">Free user</span><!----><a _ngcontent-let-c6="" class="btn button_special_L upgrade ng-star-inserted" href="https://www.soundtrap.com/pricing"> upgrade </a><!----><!----><!----></st-plan-badge></div><!----><!----><p _ngcontent-let-c1="" class="para-m user-short-info ng-star-inserted"><a _ngcontent-let-c1="" href="https://www.soundtrap.com/editprofile/?tab=about">Introduce yourself.</a></p><!----><div _ngcontent-let-c1="" class="location ng-star-inserted"><span _ngcontent-let-c1="" class="soundtrap-icon ic-location"></span><span _ngcontent-let-c1="">United States</span></div><div _ngcontent-let-c1="" class="tags"><!----><!----><a _ngcontent-let-c1="" class="tag ng-star-inserted" href="https://www.soundtrap.com/editprofile/?tab=about"><span _ngcontent-let-c1="">What instrument do you play?</span><span _ngcontent-let-c1="" class="soundtrap-icon ic-edit"></span></a></div></div><!----><div _ngcontent-let-c1="" class="follow-wrapper ng-star-inserted"><a _ngcontent-let-c1="" class="soundtrap-icon ic-edit edit-profile" href="https://www.soundtrap.com/editprofile/?tab=about"></a><div _ngcontent-let-c1="" class="follow"><a _ngcontent-let-c1="" class="follower" href="https://www.soundtrap.com/#"><span _ngcontent-let-c1="">Followers</span><span _ngcontent-let-c1="" class="follow-count">0</span></a><a _ngcontent-let-c1="" class="following" href="https://www.soundtrap.com/#"><span _ngcontent-let-c1="">Following</span><span _ngcontent-let-c1="" class="follow-count">0</span></a></div><st-trophies _ngcontent-let-c1="" _nghost-let-c7=""><!----></st-trophies></div></div></div><!----><st-profile-progress _ngcontent-let-c1="" currentuser="user" _nghost-let-c8="" class="ng-star-inserted"><!----><div _ngcontent-let-c8="" class="container ng-star-inserted"><div _ngcontent-let-c8="" class="inner-container"><div _ngcontent-let-c8="" class="left"><div _ngcontent-let-c8="" class="left-texts"><div _ngcontent-let-c8="" class="copytext">My profile</div><div _ngcontent-let-c8="" class="percentage">10% Complete </div></div><div _ngcontent-let-c8="" class="background"><div _ngcontent-let-c8="" class="active" style="width: 10%;"></div></div></div><div _ngcontent-let-c8="" class="steps"><!----><span _ngcontent-let-c8="" class="step ng-star-inserted"><i _ngcontent-let-c8="" class="soundtrap-icon step-icon ic-add"></i> Personal info </span><span _ngcontent-let-c8="" class="step ng-star-inserted"><i _ngcontent-let-c8="" class="soundtrap-icon step-icon ic-add"></i> Picture </span><span _ngcontent-let-c8="" class="step ng-star-inserted"><i _ngcontent-let-c8="" class="soundtrap-icon step-icon ic-add"></i> Tags </span><span _ngcontent-let-c8="" class="step ng-star-inserted"><i _ngcontent-let-c8="" class="soundtrap-icon step-icon ic-add"></i> Soundbite </span><span _ngcontent-let-c8="" class="step ng-star-inserted"><i _ngcontent-let-c8="" class="soundtrap-icon step-icon ic-add"></i> Invite Friends </span></div><div _ngcontent-let-c8="" style="display:none"><input _ngcontent-let-c8="" id="pic-upload" name="picture" type="file"></div></div></div></st-profile-progress></st-profile-header><div class="container-fluid max-width"><!----><div class="profile-content-middle ng-scope">
+      <!-- ngInclude: undefined --><ng-include src="&#39;/public/html/privateProfileTabs.html&#39;" class="ng-scope"><div class="tab-bar-wrap ng-scope">
+  <!-- ngIf: !privateProfileCtrl.currentUser.eaaDistrictAdmin --><div class="tab-bar edu-tab-bar ng-scope" ng-if="!privateProfileCtrl.currentUser.eaaDistrictAdmin">
+    <div class="tab active-show" ng-click="privateProfileCtrl.tabs.setTab(&#39;private&#39;)" ng-class="{&#39;active-show&#39;: privateProfileCtrl.tabs.activeTab === &#39;private&#39;}">
+      <div class="active-bar"></div>
+      <p translate="view.profile.tabs.my_projects" class="ng-scope">My Projects</p>
+    </div>
+    <div class="tab" ng-hide="privateProfileCtrl.currentUser.walled" ng-click="privateProfileCtrl.tabs.setTab(&#39;public&#39;)" ng-class="{&#39;active-show&#39;: privateProfileCtrl.tabs.activeTab === &#39;public&#39;}">
+      <div class="active-bar"></div>
+      <p translate="view.profile.tabs.my_public_profile" class="ng-scope">My Public Profile</p>
+    </div>
+    <div class="tab ng-hide" ng-show="privateProfileCtrl.currentUser.educational" ng-click="privateProfileCtrl.tabs.setTab(&#39;groups&#39;)" ng-class="{&#39;active-show&#39;: privateProfileCtrl.tabs.activeTab === &#39;groups&#39;}">
+      <div class="active-bar"></div>
+      <p translate="view.profile.tabs.my_groups" class="ng-scope">My Groups</p>
+    </div>
+    <div class="tab" ng-show="privateProfileCtrl.currentUser.hasFeature(&#39;publishPodcasts&#39;) &amp;&amp; !privateProfileCtrl.currentUser.walled" ng-click="privateProfileCtrl.tabs.setTab(&#39;podcasts&#39;)" ng-class="{&#39;active-show&#39;: privateProfileCtrl.tabs.activeTab === &#39;podcasts&#39;}">
+      <div class="active-bar"></div>
+      <p translate="view.profile.tabs.podcasts" class="ng-scope">Spotify Podcasts</p>
+    </div>
+    <div class="tab edu-admin-tab ng-hide" ng-show="privateProfileCtrl.currentUser.eaaAdministerAccount &amp;&amp; privateProfileCtrl.notMobile" ng-click="privateProfileCtrl.tabs.setTab(&#39;admin&#39;)" ng-class="{&#39;active-show&#39;: privateProfileCtrl.tabs.activeTab === &#39;admin&#39;}">
+      <div class="active-bar"></div>
+      <p translate="view.profile.tabs.edu_admin" class="ng-scope">Edu Admin</p>
+    </div>
+    <div class="tab tutorials-lessonplans-tab ng-hide" ng-show="privateProfileCtrl.currentUser.eaaAdministerGroup &amp;&amp; privateProfileCtrl.notMobile" ng-click="privateProfileCtrl.tabs.activeTab=&#39;lessonplans&#39;" ng-class="{&#39;active-show&#39;: privateProfileCtrl.tabs.activeTab === &#39;lessonplans&#39;}">
+      <div class="active-bar"></div>
+      <p translate="view.profile.tabs.lessonplans" class="ng-scope">Lesson Plans</p>
+    </div>
+    <div class="tab tutorials-resources-tab ng-hide" ng-show="privateProfileCtrl.currentUser.eaaAdministerGroup &amp;&amp; privateProfileCtrl.notMobile" ng-click="privateProfileCtrl.tabs.activeTab=&#39;resources&#39;" ng-class="{&#39;active-show&#39;: privateProfileCtrl.tabs.activeTab === &#39;resources&#39;}">
+      <div class="active-bar"></div>
+      <p translate="view.profile.tabs.resources" class="ng-scope">Resources</p>
+    </div>
+    <div class="tab" ng-show="!privateProfileCtrl.currentUser.educational" ng-click="privateProfileCtrl.tabs.setTab(&#39;edu&#39;)" ng-class="{&#39;active-show&#39;: privateProfileCtrl.tabs.activeTab === &#39;edu&#39;}">
+      <div class="active-bar"></div>
+      <p translate="view.profile.tabs.education" class="ng-scope">Education</p>
+    </div>
+  </div><!-- end ngIf: !privateProfileCtrl.currentUser.eaaDistrictAdmin -->
+  <!-- ngIf: privateProfileCtrl.currentUser.eaaDistrictAdmin -->
+</div>
+</ng-include>
+      <!-- ngInclude: undefined --><ng-include src="&#39;/public/html/profile/privateProfileMiddleBanner.html&#39;" class="ng-scope"><div class="attention-banner ng-scope ng-hide" ng-show="privateProfileCtrl.hasPaymentFailure &amp;&amp; !privateProfileCtrl.isAmericanExpressPayment">
+  <div class="container">
+    <div class="message ng-binding">
+      We were unable to collect payment when renewing your subscription. Please update your billing information!
+    </div>
+    <button type="button" class="btn button_GP_M_outl_inv pl-computer-visible ng-binding" ng-click="privateProfileCtrl.showUpdateBillingInfoDialog()">UPDATE BILLING</button>
+    <button type="button" class="btn button_GP_XL_outl_inv pl-computer-hidden ng-binding" ng-click="privateProfileCtrl.showUpdateBillingInfoDialog()">UPDATE BILLING</button>
+  </div>
+</div>
+
+<div class="attention-banner ng-scope ng-hide" ng-show="privateProfileCtrl.hasPaymentFailure &amp;&amp; !!privateProfileCtrl.isAmericanExpressPayment">
+  <div class="container">
+    <div class="message ng-binding">
+      We were unable to automatically renew your subscription due to a problem with your current payment method (AmEx). Please update your billing information.
+    </div>
+    <button type="button" class="btn button_GP_M_outl_inv pl-computer-visible ng-binding" ng-click="privateProfileCtrl.showUpdateBillingInfoDialog()">UPDATE BILLING</button>
+    <button type="button" class="btn button_GP_XL_outl_inv pl-computer-hidden ng-binding" ng-click="privateProfileCtrl.showUpdateBillingInfoDialog()">UPDATE BILLING</button>
+  </div>
+</div>
+
+<div class="attention-banner ng-scope ng-hide" ng-show="privateProfileCtrl.paymentMethodExpiresSoon &amp;&amp; !privateProfileCtrl.hasPaymentFailure">
+  <div class="container">
+    <div class="message ng-binding">
+      Your credit/debit card looks like it's about to expire. Please update your billing information!
+    </div>
+    <button type="button" class="btn button_GP_M_outl_inv pl-computer-visible ng-binding" ng-click="privateProfileCtrl.showUpdateBillingInfoDialog()">UPDATE BILLING</button>
+    <button type="button" class="btn button_GP_XL_outl_inv pl-computer-hidden ng-binding" ng-click="privateProfileCtrl.showUpdateBillingInfoDialog()">UPDATE BILLING</button>
+  </div>
+</div></ng-include>
+    </div><st-buy-now-banner _nghost-let-c3=""><!----></st-buy-now-banner><!----><st-my-projects _nghost-let-c4="" class="ng-tns-c4-1 ng-star-inserted"><div _ngcontent-let-c4="" class="header"><div _ngcontent-let-c4="" class="buttons"><a _ngcontent-let-c4="" class="btn button_GP_L" href="https://www.soundtrap.com/studio/"><span _ngcontent-let-c4="" class="soundtrap-icon ic-music"></span> Enter studio </a><a _ngcontent-let-c4="" class="start-collab-btn btn button_GP_L_outl"> Start a collaboration </a></div><div _ngcontent-let-c4="" class="search"><st-small-search-field _ngcontent-let-c4="" class="ng-tns-c4-1" _nghost-let-c11=""><span _ngcontent-let-c11="" class="soundtrap-icon ic-search"></span><input _ngcontent-let-c11="" class="project-search form-control" placeholder="Search" type="serach"></st-small-search-field></div></div><div class="quota-meter ng-scope">
+      <div class="private-area">
+        <div ng-controller="QuotaMeterCtrl as quotaCtrl" class="folders-header ng-scope">
+    <div class="quota-meter spacer20 ng-hide" ng-show="quotaCtrl.shouldShow()">
+      <div class="glyphicon-wrapper hidden-xs"><span class="glyphicons glyphicons-alert"></span></div>
+      <div class="quota-text-wrapper">
+        <span class="remaining-projects spacerb5 ng-scope" translate="view.profile.private.header.tracks_remaining" translate-values="{remaining:quotaCtrl.remaining, total: quotaCtrl.total}">null/ projects left.</span>
+        <span translate="view.profile.private.projects.korv.dialogs.delete.promote_premium" class="ng-scope">Get <span class="emphasis">Soundrap Premium</span> so you can save unlimited projects and use hundreds of loops and instruments.</span>
+      </div>
+      <a href="https://www.soundtrap.com/pricing/" data-nav="" class="btn go-premium ng-scope" translate="view.profile.private.projects.korv.dialogs.delete.promote_premium_btn">Go Premium</a>
+    </div>
+</div>
+      </div>
+    </div><!----><!----><div _ngcontent-let-c4="" class="ng-trigger ng-trigger-fadeIn ng-tns-c4-1 ng-star-inserted"><!----><st-folder _ngcontent-let-c4="" _nghost-let-c14="" class="ng-tns-c14-2 ng-tns-c4-1 ng-trigger ng-trigger-flyInOut ng-star-inserted" style=""><div _ngcontent-let-c14="" class="header"><div _ngcontent-let-c14="" class="folder-icon"><i _ngcontent-let-c14="" class="ng-tns-c14-2 ic-folder-closed"></i></div><div _ngcontent-let-c14="" class="title"><!----><!----><!----><h2 _ngcontent-let-c14="" class="title-l ng-tns-c14-2 ng-star-inserted" ststopclickpropagation="" style=""> My Projects&nbsp;&nbsp;<i _ngcontent-let-c14="" class="soundtrap-icon ic-edit"></i></h2><p _ngcontent-let-c14="" class="para-s ng-tns-c14-2 ng-star-inserted" style=""><span _ngcontent-let-c14="" class="ng-tns-c14-2">0 projects</span></p><!----></div><div _ngcontent-let-c14="" class="folder-menu"><a _ngcontent-let-c14="" class="folder-menu-button dropdown-toggle" ststopclickpropagation="" title="Modify this folder"><i _ngcontent-let-c14="" class="ic-settings"></i></a><a _ngcontent-let-c14="" class="folder-menu-button dropdown-toggle" ststopclickpropagation="" title="Expand/collapse folder"><i _ngcontent-let-c14="" class="soundtrap-icon ic-chevron-down"></i></a></div></div><!----><st-empty-folder-content _ngcontent-let-c14="" _nghost-let-c17="" class="ng-tns-c14-2 ng-trigger ng-trigger-expandCollapse ng-star-inserted" style="height: 0px;"><div _ngcontent-let-c17="" class="inner-content"><!----><div _ngcontent-let-c17="" class="content ng-star-inserted" style=""><p _ngcontent-let-c17="" class="icon"><i _ngcontent-let-c17="" class="soundtrap-icon ic-instrument-piano"></i></p><p _ngcontent-let-c17="">No projects here yet.</p><a _ngcontent-let-c17="" class="btn button_special_L" href="https://www.soundtrap.com/studio/"> Enter studio </a></div><!----></div></st-empty-folder-content><div _ngcontent-let-c14="" class="content ng-trigger ng-trigger-expandCollapse" style="height: 0px;"><st-project-list _ngcontent-let-c14="" class="ng-tns-c14-2" _nghost-let-c18=""><virtual-scroll _ngcontent-let-c18="" _nghost-let-c19="" style="overflow-y: hidden;"><div _ngcontent-let-c19="" class="total-padding" style="height: 0px;"></div><div _ngcontent-let-c19="" class="scrollable-content" style="transform: translateY(0px);"><div _ngcontent-let-c18=""><!----></div></div></virtual-scroll></st-project-list></div></st-folder><st-folder _ngcontent-let-c4="" _nghost-let-c14="" class="ng-tns-c14-3 ng-tns-c4-1 ng-trigger ng-trigger-flyInOut ng-star-inserted" style=""><div _ngcontent-let-c14="" class="header"><div _ngcontent-let-c14="" class="folder-icon"><i _ngcontent-let-c14="" class="ng-tns-c14-3 ic-folder-closed"></i></div><div _ngcontent-let-c14="" class="title"><!----><!----><!----><h2 _ngcontent-let-c14="" class="title-l ng-tns-c14-3 ng-star-inserted" ststopclickpropagation="" style=""> My Quick Recordings&nbsp;&nbsp;<i _ngcontent-let-c14="" class="soundtrap-icon ic-edit"></i></h2><p _ngcontent-let-c14="" class="para-s ng-tns-c14-3 ng-star-inserted" style=""><span _ngcontent-let-c14="" class="ng-tns-c14-3">0 projects</span></p><!----></div><div _ngcontent-let-c14="" class="folder-menu"><a _ngcontent-let-c14="" class="folder-menu-button dropdown-toggle" ststopclickpropagation="" title="Modify this folder"><i _ngcontent-let-c14="" class="ic-settings"></i></a><a _ngcontent-let-c14="" class="folder-menu-button dropdown-toggle" ststopclickpropagation="" title="Expand/collapse folder"><i _ngcontent-let-c14="" class="soundtrap-icon ic-chevron-down"></i></a></div></div><!----><st-empty-folder-content _ngcontent-let-c14="" _nghost-let-c17="" class="ng-tns-c14-3 ng-trigger ng-trigger-expandCollapse ng-star-inserted" style="height: 0px;"><div _ngcontent-let-c17="" class="inner-content"><!----><!----><div _ngcontent-let-c17="" class="content ng-star-inserted" style=""><div _ngcontent-let-c17="" class="app-icon-wrapper"><p _ngcontent-let-c17="" class="app icon"><img _ngcontent-let-c17="" alt="Soundtrap" src="./quade.maiello4_files/soundtrap_logo_thumbnail_144_b17.png"></p><p _ngcontent-let-c17="" class="app-icon-desc" translate="view.profile.private.projects.folder.empty.app_description">Download the Soundtrap app for a fast and easy way to create quick recordings!</p></div><div _ngcontent-let-c17="" class="store-icons"><a _ngcontent-let-c17="" class="google-play-icon" rel="noopener noreferrer" target="_blank" href="https://play.google.com/store/apps/details?id=com.soundtrap.studioapp"><img _ngcontent-let-c17="" alt="Get it on Google Play" src="./quade.maiello4_files/en.png"></a><a _ngcontent-let-c17="" class="ios-icon" rel="noopener noreferrer" target="_blank" href="https://itunes.apple.com/us/app/soundtrap-make-music-together/id991031323"><img _ngcontent-let-c17="" alt="Download on the App Store" src="./quade.maiello4_files/en.svg"></a></div></div></div></st-empty-folder-content><div _ngcontent-let-c14="" class="content ng-trigger ng-trigger-expandCollapse" style="height: 0px;"><st-project-list _ngcontent-let-c14="" class="ng-tns-c14-3" _nghost-let-c18=""><virtual-scroll _ngcontent-let-c18="" _nghost-let-c19="" style="overflow-y: hidden;"><div _ngcontent-let-c19="" class="total-padding" style="height: 0px;"></div><div _ngcontent-let-c19="" class="scrollable-content" style="transform: translateY(0px);"><div _ngcontent-let-c18=""><!----></div></div></virtual-scroll></st-project-list></div></st-folder><div _ngcontent-let-c4="" class="create-folder"><i _ngcontent-let-c4="" class="soundtrap-icon ic-folder-closed"></i>&nbsp;&nbsp;Create new folder </div></div><!----><!----></st-my-projects></div></st-profile>
+
+  <!-- ngIf: !g_currentUser.walled --><div class="public-area ng-scope ng-hide" ng-if="!g_currentUser.walled" ng-controller="ProjectListingCtrl" data-eat-clicks="" ng-show="privateProfileCtrl.tabs.activeTab===&#39;public&#39;">
+    <div class="container">
+      <div class="row">
+        <a name="public_projects"></a>
+      </div>
+      <div ng-show="privateProfileCtrl.projectMediator.publicProjects.length &lt; 1 &amp;&amp; !privateProfileCtrl.loadingProjects &amp;&amp; privateProfileCtrl.publicSearchTerm === &#39;&#39;" class="row">
+        <div class="col-xs-8 col-xs-offset-2">
+          <h4 class="ng-binding">No public projects yet!</h4>
+          <p class="ng-binding">It seems you haven't made any of your songs public yet! That means no one is able to hear your sound. Make a song public and start collaborating with anyone!</p>
+          <p class="ng-binding">Go to your private projects, click the Edit-button of a song and then click "Make public".</p>
+        </div>
+      </div>
+
+      <div class="spacerb40"></div>
+      <st-my-public-projects-page></st-my-public-projects-page>
+      <div class="spacerb40"></div>
+
+      <h5 class="pull-left ng-binding ng-hide" ng-show="privateProfileCtrl.projectMediator.publicProjects.length &gt; 0">MY PUBLIC PROJECTS</h5>
+      <div class="pull-right col-sm-4 col-md-3 spacerb40 text-right hidden-xs ng-hide" ng-show="privateProfileCtrl.projectMediator.publicProjects.length &gt; 0  || privateProfileCtrl.publicSearchTerm !== &#39;&#39;">
+      </div>
+
+      <div class="row" infinite-scroll="privateProfileCtrl.getMorePublicProjects()" infinite-scroll-distance="0" infinite-scroll-offset="500" infinite-scroll-disabled="privateProfileCtrl.tabs.activeTab!==&#39;public&#39; || privateProfileCtrl.loadingProjects || privateProfileCtrl.endOfPublic" infinite-scroll-listen-for="projects:publiccheckscroll">
+        <div class="col-xs-12 col-wide">
+          <!-- ngRepeat: project in privateProfileCtrl.projectMediator.publicProjects track by project.id -->
+        </div>
+      </div>
+      <div ng-show="privateProfileCtrl.projectMediator.publicProjects.length === 0 &amp;&amp; privateProfileCtrl.publicSearchTerm !== &#39;&#39;" class="row ng-hide">
+        <div class="col-xs-8 col-xs-offset-2">
+          <h4 class="text-center ng-binding">No projects found!</h4>
+        </div>
+      </div>
+      <div class="spacerb60"></div>
+
+      <div class="ajax-spinner ng-hide" ng-show="privateProfileCtrl.loadingProjects">
+        <span class="ajax-spinner-centered"></span>
+      </div>
+    </div>
+  </div><!-- end ngIf: !g_currentUser.walled -->
+
+  <!-- ngIf: privateProfileCtrl.currentUser.educational -->
+
+  <!-- ngIf: privateProfileCtrl.hasLoadedPodcastsPage -->
+
+  <!-- ngInclude: undefined --><ng-include src="&#39;/public/html/eduDistrictPanel.html&#39;" class="ng-scope"><!-- ngIf: privateProfileCtrl.currentUser.eaaDistrictAdmin && privateProfileCtrl.tabs.activeTab === 'district' --></ng-include>
+
+  <!-- ngInclude: undefined --><ng-include src="&#39;/public/html/eduAdminPanel.html&#39;" class="ng-scope"><!-- ngIf: privateProfileCtrl.currentUser.eaaAdministerAccount -->
+</ng-include>
+
+  <!-- ngIf: privateProfileCtrl.currentUser.eaaAdministerGroup && privateProfileCtrl.tabs.activeTab === 'resources' -->
+
+  <!-- ngIf: privateProfileCtrl.currentUser.eaaAdministerGroup && privateProfileCtrl.tabs.activeTab === 'lessonplans' -->
+
+  <!-- ngInclude: undefined -->
+
+</div>
+                      </div>
+
+          <st-footer layout="default" ng-version="8.2.14"><!----><div id="footer" class="ng-star-inserted"><div class="container"><div class="row logorow"><div class="col-xs-12"><st-copyright _nghost-let-c9=""><div _ngcontent-let-c9="">© Copyright 2019 Soundtrap AB</div></st-copyright></div></div><div class="row"><div class="col-sm-3"><div class="linkcol"><!----><div class="ng-star-inserted"><a href="https://www.soundtrap.com/me" translate="tags.footer.profile" translate-default="My profile">My profile</a></div><div><a href="https://www.soundtrap.com/discover" translate="tags.footer.discover" translate-default="Discover">Discover</a></div><div><a href="https://www.soundtrap.com/search" translate="tags.footer.search" translate-default="Search">Search</a></div><!----><!----><div><a href="https://support.soundtrap.com/" rel="noopener noreferrer" target="_blank" translate="tags.footer.support" translate-default="Support">Support</a></div><div><a href="https://www.soundtrap.com/tutorials" translate="tags.footer.tutorials" translate-default="Tutorials">Tutorials</a></div></div></div><div class="col-sm-3"><div class="linkcol"><div><a href="https://www.soundtrap.com/pricing" translate="tags.footer.pricing" translate-default="Pricing">Pricing</a></div><div><a href="https://www.soundtrap.com/about" translate="tags.footer.about" translate-default="About">About</a></div><div><a href="https://press.soundtrap.com/" translate="tags.footer.press" translate-default="Press">Press</a></div><div><a href="http://blog.soundtrap.com/" translate="tags.footer.blog" translate-default="Soundtrap blog">Soundtrap blog</a></div><div><a href="http://edublog.soundtrap.com/" translate="tags.footer.edublog" translate-default="Soundtrap EDU blog">Soundtrap EDU blog</a></div><div><a href="https://soundtrap.zendesk.com/hc/en-us/community/topics" translate="tags.footer.community" translate-default="Community">Community</a></div></div></div><div class="col-sm-3"><div class="linkcol"><!----><div><a href="https://www.soundtrap.com/developers" translate="tags.footer.developers" translate-default="Developers">Developers</a></div><div><a href="http://jobs.soundtrap.com/" translate="tags.footer.jobs" translate-default="Jobs">Jobs</a></div><div><a href="https://www.soundtrap.com/legal/" translate="tags.footer.privacy" translate-default="Privacy">Privacy</a></div><div><a translate="tags.footer.guidelines" translate-default="Community guidelines" href="https://www.soundtrap.com/public/legal/community_guidelines.pdf?__ts=0.21274039156841873">Community guidelines</a></div><div><a href="https://www.soundtrap.com/legal/terms" translate="tags.footer.terms" translate-default="Terms of use">Terms of use</a></div><div><a translate="tags.footer.cookies" translate-default="Cookies" href="https://www.soundtrap.com/public/legal/cookies_policy.pdf?__ts=0.21274039156841873">Cookies</a></div></div></div><div class="col-sm-3"><div class="linkcol"><div class="social-media-row"><a class="social-media-icon social-media-icon-mini social-media-icon-facebook" href="https://www.facebook.com/soundtrapsite/" rel="noopener noreferrer" target="_blank"></a><a class="text-link" href="https://www.facebook.com/soundtrapsite/" rel="noopener noreferrer" target="_blank">Facebook</a></div><div class="social-media-row"><a class="social-media-icon social-media-icon-mini social-media-icon-twitter" href="https://twitter.com/soundtrap" rel="noopener noreferrer" target="_blank"></a><a class="text-link" href="https://twitter.com/soundtrap" rel="noopener noreferrer" target="_blank">Twitter</a></div><div class="social-media-row"><a class="social-media-icon social-media-icon-mini social-media-icon-youtube" href="https://www.youtube.com/user/soundtrapsite" rel="noopener noreferrer" target="_blank"></a><a class="text-link" href="https://www.youtube.com/user/soundtrapsite" rel="noopener noreferrer" target="_blank">YouTube</a></div><div class="social-media-row"><a class="social-media-icon social-media-icon-mini social-media-icon-instagram" href="https://instagram.com/soundtrap/" rel="noopener noreferrer" target="_blank"></a><a class="text-link" href="https://instagram.com/soundtrap/" rel="noopener noreferrer" target="_blank">Instagram</a></div><a href="https://plus.google.com/114280035071911877430" rel="publisher"></a></div></div></div><div class="row"><div class="col-sm-2"><label translate="tags.footer.language" translate-default="Language">Language</label><st-language-picker><select class="form-control languagepicker" name="languagepicker"><!----><option value="de" class="ng-star-inserted">Deutsch </option><option value="en" selected="true" class="ng-star-inserted">English </option><option value="es" class="ng-star-inserted">Español </option><option value="fr" class="ng-star-inserted">Français </option><option value="sv" class="ng-star-inserted">Svenska </option></select></st-language-picker></div></div></div></div><!----></st-footer>
+        
+        <div id="spinner"></div>
+        <navigation-progress-bar><div class="navigation-progress-bar"></div></navigation-progress-bar>
+
+        <st-toast _nghost-let-c10="" class="ng-tns-c10-0" ng-version="8.2.14"><!----></st-toast>
+
+        <div class="wmodalprogressbartemplate hide">
+  <div class="wdialogbackdrop"></div>
+  <div class="box wshadoweddialog">
+    <div class="lbl title-l"></div>
+    <div class="bar"><div class="percent para-m"></div><div class="fill"></div></div>
+    <button class="btn button_D_pr_L cancelbutton">Cancel</button>
+  </div>
+</div>
+        <script type="text/ng-template" id="/public/html/money.html">
+  <span class="st-money"><span class="st-money-major">{{majorMoney}}</span><sup class="st-money-minor">{{minorMoney}}</sup><span class="st-money-rest">{{restMoney}}</span></span>
+</script>
+
+<script type="text/ng-template" id="/public/html/purposeDialog.html">
+<div
+  class="modal-body"
+  ng-class="{
+    'custom-dialog': dialog.bodyInclude.length,
+  }">
+  <h5 class="modal-title" ng-if="!dialog.headerInclude.length">
+    <span class="icon" ng-if="dialog.icon">
+      <span class="glyphicons {{dialog.icon}}" ng-hide="dialog.isIconAnImage"></span>
+      <img ng-src="{{ dialog.icon }}" ng-if="dialog.isIconAnImage" class="icon-image" />
+    </span>
+    <span class="text" ng-if="dialog.title" data-ng-bind-html="dialog.title"></span>
+  </h5>
+  <div class="close-icon-inv" ng-if="dialog.canOptNull" ng-click="dialog.clicked(-1)"></div>
+  <div class="modal-title" ng-if="dialog.headerInclude.length" ng-include="dialog.headerInclude"></div>
+  <div class="inner">
+    <p ng-if="dialog.message" ng-bind-html="dialog.message" class="message"></p>
+    <div class="partial-include" ng-include="dialog.bodyInclude" ng-if="dialog.bodyInclude.length"></div>
+    <div class="footer-include" ng-include="dialog.footerInclude" ng-if="dialog.footerInclude.length"></div>
+    <div class="modal-footer" ng-if="!dialog.footerInclude.length && dialog.options.length">
+      <a class="btn" ng-if="dialog.options.length" ng-class="$index == dialog.defaultButton ? 'button_D_pr_L' : 'button_D_sec_L'" ng-click="dialog.clicked($index)"
+         ng-repeat="n in dialog.options track by $index">{{n}}</a>
+    </div>
+  </div>
+</div>
+</script>
+
+<script type="text/ng-template" id="/public/dialogs/signup/personal/header.html">
+<h4 class="title">
+  <span class="soundtrap-logo"><img src="/public/images/Soundtrap_Symbol_White.svg" alt="Soundtrap"></span>
+  {{ dialog.title || ('view.dialogs.signup_beta.title' | translate) }}
+</h4></script>
+
+<script type="text/ng-template" id="/public/dialogs/signup/personal/body.html">
+<div class="controller-wrapper" ng-controller="LoginCtrl as login"
+     ng-init="login.setup({'edu': !!dialog.extraOptions.edu, 'eduTrialSignup': eduTrialSignup, 'url': signup.dialog.extraOptions.url, 'eduCode': dialog.extraOptions.eduCode})">
+  <div class="columns" ng-controller="SignupDialogCtrl as signup" ng-class="{ 'email-shown': signup.isEmailFormShown }"
+       ng-init="signup.eduTrialSignup = eduTrialSignup; signup.eduCode = dialog.extraOptions.eduCode; signup.edu = !!dialog.extraOptions.edu; signup.url = dialog.extraOptions.url || '';">
+    <div class="buttons" ng-if="!login.needsAgeCheck">
+      <div>
+        <div class="login-button login-button-gp google-white"><a class="btn btn-xs-block google-signup-button" ng-click="login.loginGoogle()"><span
+            class="signupdivider"></span>{{'view.dialogs.signup_beta.sign_up_with' | translate}} <strong>Google</strong></a></div>
+        <div class="login-button login-button-fb" ng-if="!signup.isEduSignup()"><a class="btn btn-xs-block" ng-click="login.loginFacebook()"><span class="signupdivider"></span>{{'view.dialogs.signup_beta.sign_up_with'
+          | translate}} <strong>Facebook</strong></a></div>
+        <div class="login-button login-button-ms" ng-if="signup.isEduSignup()"><a class="btn btn-xs-block" ng-click="login.loginMicrosoft()"><span class="signupdivider"></span>{{'view.dialogs.signup_beta.sign_up_with'
+          | translate}} <strong>Office 365</strong></a></div>
+      </div>
+      <a href="" class="login-link login-link-email" ng-click="signup.onShowEmail()"><span
+          class="glyphicons glyphicons-envelope"></span>{{'view.dialogs.signup_beta.email_instead_link' | translate}}</a>
+    </div>
+    <div class="email-form" ng-if="!login.needsAgeCheck">
+      <form class="signup-form" ng-submit="signup.submit()" id="signup-form" name="signup.formSignup">
+        <div ng-repeat="error in signup.errorMessage" class="alert alert-danger" ng-show="error" ng-bind-html="error"></div>
+
+        <label for="l_email" translate="view.dialogs.signup_beta.email_signup_headline"></label>
+
+        <div class="form-group">
+          <input ng-class="{'st-error': signup.errorMessage.email}" placeholder="{{ 'view.dialogs.signup_beta.email_placeholder' | translate }}"
+                 type="text" class="form-control" ng-model-options="{ updateOn: 'blur' }" id="l_email" name="email"
+                 title="{{ 'view.dialogs.signup_beta.email_placeholder' | translate }}" ng-model="signup.email" tabindex="1" required/>
+        </div>
+
+        <div class="form-group">
+          <input ng-class="{'st-error': signup.errorMessage.password}" placeholder="{{ 'view.dialogs.signup_beta.password_placeholder' | translate }}"
+                 type="password" class="form-control" id="l_password" name="password"
+                 title="{{ 'view.dialogs.signup_beta.password_placeholder' | translate }}" ng-model="signup.password"
+                 ng-model-options="{ updateOn: 'blur' }" tabindex="2" required/>
+        </div>
+
+        <div ng-if="signup.isEduSignup() && !signup.hideNameField">
+          <label for="l_firstName" translate="view.dialogs.signup_beta.name.label"></label>
+
+          <div class="form-group">
+            <input ng-class="{'st-error': signup.errorMessage.first_name}" type="text" class="form-control" id="l_firstName" name="firstName"
+                   title="{{ 'view.dialogs.signup_beta.first_name.placeholder' | translate }}" ng-model="signup.firstName"
+                   ng-model-options="{ updateOn: 'blur' }" tabindex="3" required placeholder="{{ 'view.dialogs.signup_beta.first_name.placeholder' | translate }}" />
+          </div>
+
+          <div class="form-group">
+            <input ng-class="{'st-error': signup.errorMessage.last_name}" type="text" class="form-control" id="l_lastName" name="lastName"
+                   title="{{ 'view.dialogs.signup_beta.last_name.placeholder' | translate }}" ng-model="signup.lastName"
+                   ng-model-options="{ updateOn: 'blur' }" tabindex="3" required placeholder="{{ 'view.dialogs.signup_beta.last_name.placeholder' | translate }}" />
+          </div>
+        </div>
+
+        <span ng-if="!signup.isEduSignup()">
+          <label for="signup-country" translate="view.dialogs.signup.choose_country"></label>
+
+          <div id="signup-country" class="form-group" ng-init="signup.input.country">
+            <select required ng-options="country.code as country.name for country in signup.countries" ng-model="signup.countryCode"
+                    class="form-control" name="country" tabindex="3">
+              <option value="" disabled translate="view.dialogs.signup.country"></option>
+            </select>
+          </div>
+
+          <label for="signup-date-of-birth" translate="view.dialogs.signup.date_of_birth"></label>
+
+          <date-selector date="signup.birthDate" tab-index="4"></date-selector>
+        </span>
+
+        <div ng-if="signup.edu && !signup.eduTrialSignup">
+          <label for="l_eduCode" translate="view.dialogs.signup_beta.edu_code.label"></label>
+          <div class="form-group">
+            <input ng-class="{'st-error': signup.errorMessage.eduCode}" type="text" class="form-control" id="l_eduCode" name="eduCode"
+                   title="{{ 'view.dialogs.signup_beta.edu_code.title' | translate }}" ng-model="signup.eduCode"
+                   ng-model-options="{ updateOn: 'blur' }" tabindex="3" required ng-disabled="signup.isEduCodeLocked" />
+          </div>
+        </div>
+
+        <!-- grecaptcha-placeholder div must be empty, otherwise recaptcha library refuses to render anything in it -->
+        <div id="grecaptcha-placeholder" style="display:none"></div>
+
+        <div class="text-center">
+          <input ng-if="signup.canGoBackToTrialDialog" type="button" value="{{ 'view.dialogs.signup_beta.back_btn' | translate }}"
+                 class="btn btn-trans" ng-click="signup.backToTrialDialog()"/>
+          <input type="submit" id="s_submit" value="{{ 'view.dialogs.signup_beta.sign_up_btn' | translate }}" class="btn button_D_pr_L"
+                 tabindex="16"/>
+        </div>
+
+        <div class="already spacer10" ng-if="!signup.canGoBackToTrialDialog">
+          <div class="text-center"><a href="" class="small-link" ng-click="signup.goToLogin()"
+                                      translate="view.dialogs.signup_beta.existing_user_label"></a></div>
+        </div>
+      </form>
+    </div>
+    <div class="age-check-form" ng-if="login.needsAgeCheck">
+      <form ng-submit="login.submitAgeCheck()" id="age-check-form">
+        <p translate="view.dialogs.signup.age_check_description"></p>
+
+        <label for="age-check-country" translate="view.dialogs.signup.choose_country"></label>
+        <div id="age-check-country" class="form-group" ng-init="login.input.country">
+          <select required ng-options="country.code as country.name for country in login.countries" ng-model="login.countryCode" class="form-control"
+                  tabindex="1">
+            <option value="" disabled translate="view.dialogs.signup.country"></option>
+          </select>
+        </div>
+
+        <label for="age-check-date-of-birth" translate="view.dialogs.signup.date_of_birth"></label>
+
+        <date-selector date="login.birthDate" tab-index="2"></date-selector>
+
+        <div class="text-center">
+          <input type="submit" value="{{ 'view.dialogs.ok' | translate }}" class="btn button_D_pr_L" tabindex="16"/>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</script>
+
+<script type="text/ng-template" id="/public/dialogs/signup/personal/footer.html">
+<p translate="view.dialogs.signup.bysigning1"></p>
+<p translate="view.dialogs.signup.bysigning2"></p>
+</script>
+
+<script type="text/ng-template" id="/public/dialogs/signup/education/footer.html">
+<p translate="view.dialogs.signup.edu.bysigning1"></p></script>
+
+<script type="text/ng-template" id="/public/dialogs/login/header.html">
+<h4 class="title">
+  <span class="soundtrap-logo"><span class="glyphicons glyphicons-lock"></span></span>
+  {{'view.landing.login.welcomeback' | translate}}
+</h4>
+</script>
+
+<script type="text/ng-template" id="/public/dialogs/login/body.html">
+<div class="controller-wrapper" ng-controller="LoginCtrl as login" ng-init="login.setup(dialog.extraOptions)">
+  <div ng-show="login.errorMessage" class="alert alert-danger" ng-bind-html="login.errorMessage"></div>
+  <div ng-show="login.noSuchEmailError" class="alert alert-danger">{{'view.landing.login.emailnomatch' | translate}}<br><a ng-click="login.goToSignup()" translate="view.landing.login.signup"></a></div>
+  <div class="columns">
+    <div class="buttons" ng-if="!login.needsAgeCheck">
+      <div class="login-button login-button-fb"><a class="btn btn-xs-block" ng-click="login.loginFacebook()"><span class="signupdivider"></span>{{'view.landing.login.loginwith' | translate}} <strong>Facebook</strong></a></div>
+      <div class="login-button login-button-gp"><a class="btn btn-xs-block" ng-click="login.loginGoogle()"><span class="signupdivider"></span>{{'view.landing.login.loginwith' | translate}} <strong>Google</strong></a></div>
+      <div class="login-button login-button-ms"><a class="btn btn-xs-block" ng-click="login.loginMicrosoft()"><span class="signupdivider"></span><strong>{{ 'view.landing.login.microsoftschoolaccount' | translate }}</strong></a></div>
+      <a href="" class="login-link login-link-email" ng-click="login.onShowEmail()"><span class="glyphicons glyphicons-envelope"></span>{{'view.landing.login.emailinstead' | translate}}</a>
+    </div>
+    <div class="email-form" ng-if="!login.needsAgeCheck">
+      <form class="login-form" ng-submit="login.loginEmailPassword()" id="login-form" data-login-form>
+
+        <label for="l_email" translate="view.landing.login.withemail"></label>
+
+        <div class="form-group">
+          <input type="text" class="form-control" id="l_email" name="email" title="email" ng-model="login.email" tabindex="1"/>
+        </div>
+
+        <div class="form-group">
+          <input type="password" class="form-control" id="l_password" name="password" title="password" ng-model="login.password" tabindex="2"/>
+        </div>
+
+        <div ng-if="login.edu && login.askEduCode">
+          <label for="l_eduCode" translate="view.dialogs.signup.educode"></label>
+          <div class="form-group">
+            <input ng-class="{'st-error': login.errorMessage.eduCode}" type="text" class="form-control" id="l_eduCode" name="eduCode" title="EDU code" ng-model="login.eduCode" ng-model-options="{ updateOn: 'blur' }" tabindex="3" required/>
+          </div>
+        </div>
+
+        <div class="form-group login-options">
+          <div class="checkbox remember-me">
+            <label class="btn-xs-block">
+              <input type="checkbox" name="remember_me" checked ng-model="login.rememberMe" tabindex="4"> {{'view.landing.login.rememberme' | translate}}
+            </label>
+          </div>
+
+          <div class="forgot-password">
+            <a tabindex="-1" class="small-link"href="/forgotpassword/" translate="view.landing.login.forgotpass"></a>
+          </div>
+        </div>
+
+        <div class="submit form-group">
+          <input type="submit" class="btn btn button_D_pr_L" id="l_submit" value="{{'view.landing.login.login' | translate}}" tabindex="3"/>
+        </div>
+      </form>
+    </div>
+    <div class="age-check-form" ng-if="login.needsAgeCheck">
+      <form ng-submit="login.submitAgeCheck()" id="age-check-form">
+        <p translate="view.dialogs.signup.age_check_description"></p>
+
+        <label for="age-check-country" translate="view.dialogs.signup.choose_country"></label>
+        <div id="age-check-country" class="form-group" ng-init="login.input.country">
+          <select required ng-options="country.code as country.name for country in login.countries" ng-model="login.countryCode" class="form-control"
+                  name="country" tabindex="1">
+            <option value="" disabled translate="view.dialogs.signup.country"></option>
+          </select>
+        </div>
+
+        <label for="age-check-date-of-birth" translate="view.dialogs.signup.date_of_birth"></label>
+
+        <date-selector date="login.birthDate" tab-index="2"></date-selector>
+
+        <div class="text-center">
+          <input type="submit" value="{{ 'view.dialogs.ok' | translate }}" class="btn button_D_pr_L" tabindex="16"/>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="already-account" ng-if="!login.needsAgeCheck">
+    <a href="" ng-click="login.goToSignup()" translate="view.landing.login.noaccount"></a>
+  </div>
+</div>
+</script>
+
+        
+        <script type="text/javascript">
+          window.__DEV__ = false;
+          // sminit constants
+
+                                        soundtrapModule.run(['CurrentUser', function(CurrentUser) {
+                        CurrentUser.setUser({"id":21580220,"userId":21580220,"username":"quade.maiello4","usernameChangesLeft":1,"shortName":"quade.maiello4","firstName":"","lastName":"","fullName":"quade.maiello4","email":"quade.maiello@cwcmarvista.org","picturePresent":false,"profileImg":"https://www.soundtrap.com/public/images/avatar-placeholder-blue.svg","profileIcon":"https://www.soundtrap.com/public/images/avatar-placeholder-blue.svg","backgroundImagePresent":true,"backgroundImage":"https://storage.googleapis.com/stpp/avatar/29.jpg","backgroundImageIcon":"https://storage.googleapis.com/stpp/avatar/icon_29.jpg","privacyMessageCode":"E","location":"United States","userUrl":"/quade.maiello4","country":{"name":"United States","code":"US"},"wantsNewsletters":true,"shortInfo":"","tagList":[],"roles":[],"features":["","exportMidi","oversamplingExperiment","sthlmInstitute","transcription","savePresets","vorbisCodecWASM","deleteTrackExperiment","firefox","mix32bit","addLoopToProject","eduLandingRedirect","migrateToSpotify","reverseAudio","elasticsearch","serverPresets","publishPodcasts","newCheckoutPage","podcastsReleased","brazeBeta","randomizeButton","discover","not-me-paying-experiment","discover-app","satelliteOffers","priorityMixing","pianoRollTutorialExperiment","studioUSPMessageExperiment","hipHopLoopTag","multiLingualTranscripts","transcriptShortcutsExperiment2","cjReferralTracking","newAddTrackDialog","newChatServer","saveLoops","3dfx","restricted_recurly_gateway","vorbisCodec","newPlanCopy","eduSignupFieldsReductionExperimentV2","eduSignupFieldsReductionExperiment","filterfx","interactiveMerge","threeFor99Campaign2019","stepsequencer","eduTrialCountdownExperiment","voiceTransform","googleSTT","publishTakedown","recurly_update_expired_subs","idbDrafts","clientMastering","automationOneTrack","creatorNoTrialExperiment2","freesound","showSupremePlan","studioCDN","profileBannerCopyExperiment","savingsCopyBannerExperiment","loadUserAudioFromBucket","tutorialsTooltipExperiment","microsoftClientPunctuation","microsoftSTT","webRTCRecording","mousePadSensitivity","loadMidiLoops","soundtrapOriginals"],"created":1576534856000,"ps":"vuem5//no7egoOfp56Gr5//no7egoOfp56Pn/+e357g\u003d","minimalProfile":false,"editNameSuppressed":false,"ltiTaskLaunch":false,"tierName":"free","externallyManaged":false,"educational":false,"walled":false,"groupMemberships":[],"numLogins":5,"activated":true,"canUseTrial":true,"hasTrial":false,"hasCollaboratedLastTwoMonths":false,"mailOptOutList":[],"browserPushNotificationOptOutList":[],"mobilePushNotificationOptOutList":[],"trialDaysTotal":14,"numFollowers":0,"numFollowing":0,"mayEditProfileInfo":true,"isGoogleConnected":true,"locale":"en","trophyList":[],"profileCompletionSteps":[],"planTier":{"name":"free","flags":["TRANSCRIPTION"]}});
+                        CurrentUser.refreshCurrentUser();
+          }]);
+          soundtrapModule.run(['$rootScope', function($rootScope) {
+            $rootScope.studio_compatible = true;
+            $rootScope.os_okay = true;
+          }]);
+
+          // create the angular module
+          ST.app.bootstrap();
+        </script>
+        <script type="text/javascript">
+  soundtrapModule.run(['$rootScope', 'ProjectMediatorService', function ($rootScope, projectMediatorService) {
+    $rootScope.user1 = {"id":21580220,"userId":21580220,"username":"quade.maiello4","usernameChangesLeft":1,"shortName":"quade.maiello4","firstName":"","lastName":"","fullName":"quade.maiello4","email":"quade.maiello@cwcmarvista.org","picturePresent":false,"profileImg":"https://www.soundtrap.com/public/images/avatar-placeholder-blue.svg","profileIcon":"https://www.soundtrap.com/public/images/avatar-placeholder-blue.svg","backgroundImagePresent":true,"backgroundImage":"https://storage.googleapis.com/stpp/avatar/29.jpg","backgroundImageIcon":"https://storage.googleapis.com/stpp/avatar/icon_29.jpg","privacyMessageCode":"E","location":"United States","userUrl":"/quade.maiello4","country":{"name":"United States","code":"US"},"wantsNewsletters":true,"shortInfo":"","tagList":[],"roles":[],"features":["","exportMidi","oversamplingExperiment","sthlmInstitute","transcription","savePresets","vorbisCodecWASM","deleteTrackExperiment","firefox","mix32bit","addLoopToProject","eduLandingRedirect","migrateToSpotify","reverseAudio","elasticsearch","serverPresets","publishPodcasts","newCheckoutPage","podcastsReleased","brazeBeta","randomizeButton","discover","not-me-paying-experiment","discover-app","satelliteOffers","priorityMixing","pianoRollTutorialExperiment","studioUSPMessageExperiment","hipHopLoopTag","multiLingualTranscripts","transcriptShortcutsExperiment2","cjReferralTracking","newAddTrackDialog","newChatServer","saveLoops","3dfx","restricted_recurly_gateway","vorbisCodec","newPlanCopy","eduSignupFieldsReductionExperimentV2","eduSignupFieldsReductionExperiment","filterfx","interactiveMerge","threeFor99Campaign2019","stepsequencer","eduTrialCountdownExperiment","voiceTransform","googleSTT","publishTakedown","recurly_update_expired_subs","idbDrafts","clientMastering","automationOneTrack","creatorNoTrialExperiment2","freesound","showSupremePlan","studioCDN","profileBannerCopyExperiment","savingsCopyBannerExperiment","loadUserAudioFromBucket","tutorialsTooltipExperiment","microsoftClientPunctuation","microsoftSTT","webRTCRecording","mousePadSensitivity","loadMidiLoops","soundtrapOriginals"],"created":1576534856000,"ps":"vuem5//no7egoOfp56Gr5//no7egoOfp56Pn/+e357g\u003d","minimalProfile":false,"editNameSuppressed":false,"ltiTaskLaunch":false,"tierName":"free","externallyManaged":false,"educational":false,"walled":false,"groupMemberships":[],"numLogins":5,"activated":true,"canUseTrial":true,"hasTrial":false,"hasCollaboratedLastTwoMonths":false,"mailOptOutList":[],"browserPushNotificationOptOutList":[],"mobilePushNotificationOptOutList":[],"trialDaysTotal":14,"numFollowers":0,"numFollowing":0,"mayEditProfileInfo":true,"isGoogleConnected":true,"locale":"en","trophyList":[],"profileCompletionSteps":[],"planTier":{"name":"free","flags":["TRANSCRIPTION"]}};
+    $rootScope.following = null;
+    $rootScope.invites = [];
+    $rootScope.currentLikes = {};
+    $rootScope.numFollowers = 0;
+    $rootScope.numFollowing = 0;
+    $rootScope.numStreams = 0;
+    $rootScope.planInfo1 = {"canUseTrial":true,"currentPlan":{"isTrial":false,"educational":false,"code":"free","displayName":"free","loops":2310,"instruments":230,"timeRestore":false,"autoTune":false,"priorityMixing":false,"highQualityDownloads":false,"remoteInterview":false,"interactiveTranscripts":true,"publishToSpotify":false,"planTier":{"name":"free","flags":["TRANSCRIPTION"]},"quotas":[{"resourceType":"transcript","quantity":600,"period":"monthly"}]},"upgradeTo":[],"downgradeTo":[],"changeIntervalTo":[]};
+    $rootScope.showEduNag = false;
+    $rootScope.showEduConversionCampaign = false;
+    $rootScope.hasPaymentFailure = false;
+    $rootScope.isAmericanExpressPayment = false;
+    $rootScope.paymentMethodExpiresSoon = false;
+    projectMediatorService.setPrivateProjects([]);
+    projectMediatorService.setFolders([{"id":46605761,"name":"My Projects","created":1576534856000,"allowRename":false,"allowDelete":false,"type":"default_folder","sortMode":"newest","numberOfProjects":0,"projectIds":[]},{"id":46605764,"name":"My Quick Recordings","created":1576534856000,"allowRename":false,"allowDelete":false,"type":"quick_recordings","sortMode":"newest","numberOfProjects":0,"projectIds":[]}]);
+  }]);
+</script>
+
+          
+
+<script type="text/javascript" id="">!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version="2.0",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,"script","https://connect.facebook.net/en_US/fbevents.js");fbq("init","144021426022153");fbq("set","agent","tmgoogletagmanager","144021426022153");fbq("track","PageView");</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=144021426022153&amp;ev=PageView&amp;noscript=1"></noscript>
+<script type="text/javascript" id="">(function(c,e){var f=[],g=function(){for(var a=arguments.length,b=Array(a),d=0;d<a;d++)b[d]=arguments[d];return c.spotAds.conv.q.push(b)},a="script",b=e.getElementsByTagName(a);b=b[b.length-1];a=e.createElement(a);a.async=!0;a.id="spotevents";a.src="https://pixel-static.spotify.com/conversion.min.js";try{c.spotAds?!c.spotAds.conv&&(c.spotAds.conv={q:f,sdk:g}):c.spotAds={conv:{q:f,sdk:g}},b.parentNode.appendChild(a)}catch(h){}})(window,document);window.spotAds.conv.sdk("init","1096774351");
+window.spotAds.conv.sdk("track","PAGE_VIEW");</script><script async="" id="spotevents" src="./quade.maiello4_files/conversion.min.js.download"></script>
+<noscript>
+     <img id="cidmgmt" src="https://pixel.spotify.com/v1/adid?nojs=1" style="display: none;" width="0" height="0">
+</noscript><iframe id="qualaroo_dnt_frame" src="./quade.maiello4_files/frame.html" style="width: 1px; height: 1px; display: none; opacity: 0;"></iframe><iframe data-product="web_widget" title="No content" tabindex="-1" aria-hidden="true" src="./quade.maiello4_files/saved_resource(1).html" style="width: 0px; height: 0px; border: 0px; position: absolute; top: -9999px;"></iframe><div><iframe title="Opens a widget where you can find more information" id="launcher" tabindex="0" class="zEWidget-launcher zEWidget-launcher--active" style="border: none; background: transparent; z-index: 999998; transform: translateZ(0px); position: fixed; transition-duration: 250ms; transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); transition-property: opacity, top, bottom; opacity: 1; height: 50px; max-height: 551px; min-height: 50px; margin: 10px 20px; right: 0px; bottom: 0px; width: 139px;width: 139px;width: 139px;width: 139px;" src="./quade.maiello4_files/saved_resource(2).html"></iframe></div><div><iframe title="Find more information here" id="webWidget" tabindex="-1" class="zEWidget-webWidget " style="border: none; background: transparent; z-index: 999999; transform: translateZ(0px); position: fixed; transition-duration: 250ms; transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1); transition-property: opacity, top, bottom; opacity: 0; width: 357px; height: 100%; max-height: 565px; min-height: 150px; margin-left: 8px; margin-right: 8px; top: -9999px; visibility: hidden;" src="./quade.maiello4_files/saved_resource(3).html"></iframe></div></body></html>
